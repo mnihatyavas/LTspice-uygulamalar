@@ -6,7 +6,7 @@ Simülasyonlar toplam 7 temel gruplamadan müteşekküldür:
 4. Digital (Bilgisayar devreleri)
 5. Experiments (Aktif uygulamalar)
 6. Reference (Teorik elektrik elektronik matematik formülleri)
-7. Radyo ve Elektromanyetik Dalgalar (Radyo devreleri)
+7. Radyo ve Telekomünikasyon (Radyo devreleri)
 
 Örnekler d1... olarak başlamakta; d=devre ve sonraki ilk 1-7 rakam yukardaki ana gruplandırmaya tekabül etmektedir.
 İsteyen orijinal İngilizce pdf kitaplara www.allaboutcircuits.com/textbooks'tan ulaşabilir, ücretsiz indirebilir.
