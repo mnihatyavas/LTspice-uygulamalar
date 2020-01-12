@@ -5,7 +5,7 @@ Simülasyonlar toplam 7 temel gruplamadan müteşekküldür:
 3. Semiconductors (Yarıiletken elektronik devreleri)
 4. Digital (Bilgisayar mantık devreleri)
 5. Experiments (Aktif uygulamalar)
-6. Reference (Teorik elektrik elektronik matematik formülleri)
+6. Reference (Teorik elektrik elektronik kompleks-sayılar türev-integral matematik formülleri)
 7. Radyo ve Telekomünikasyon (Alıcı-verici iletişim devreleri)
 
 Örnekler d1... olarak başlamakta; d=devre ve sonraki ilk 1-7 rakam yukardaki ana gruplandırmaya tekabül etmektedir.
