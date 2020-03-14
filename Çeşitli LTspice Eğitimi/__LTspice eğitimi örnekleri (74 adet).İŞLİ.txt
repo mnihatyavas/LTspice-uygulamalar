@@ -1,0 +1,101 @@
+Çeþitli LTspice Eðitimi Örnekleri.ÝÞLÝ (74 adet)
+================================
+(LTspice: Linear Technology Simulation Program with Integrated Circuit Emphasis)
+LT_01. Andy Collinson örnekleri.
+    LT_0101. LTspice ile DC analizleri
+        LT_0101a.asc: Andy Collinson'un LTspice'la basit DC analiz devresi örneði.
+        LT_0101b.asc: A.Collinson'un LTspice'la gerilim bölücü DC analiz devresi örneði.
+        LT_0101c.asc: A.Collinson'un LTspice'la DC süpürme simülasyonu örneði.
+        LT_0101d.asc: Dirençle parametre süpürme simülasyonu örneði.
+        LT_0101e.asc: DC süpürme devresinde 1N4148 model çiftüþeðin karakteristiði örneði.
+        LT_0101ex.txt: Çeþitli 1N4148 D çiftüþek spice modelleri örneði.
+    LT_0102. Yeni .asy sembolleri yaratma
+        LT_0102a.asc: Kendi çiftüþek, irkileç ve sýðaç sembollerimin basit bir devre örneði.
+        LT_0102b.asy: Mnnn Meter (MOSFET algýlýyor) ölçer sembol çizimi.
+        LT_0102c.asy: Cnnn prefix/önek tiplemesi ve C deðerli sýðaç sembolü çizimi.
+        LT_0102d.asy: Lnnn prefix/önek tiplemesi ve L deðerli irkileç sembolü çizimi.
+        LT_0102e.asy: Dnnn prefix/önek tiplemesi ve D deðerli çiftüþek sembolü çizimi.
+    LT_0103. Pratik uygulamalar
+        LT_0103a.asc: Led lambasýný ýþýldatan/karartan BJT yükselteç devresi örneði.
+        LT_0103b.asc: Yüksek frekanslý radyo/audio devresi örneði.
+        LT_0103c.asc: Dinamik Mic-rofonlu sinyal kaynaðý baðlý op-amp devresi örneði.
+        LT_0103d: Bir simülasyon devresini breadboard'a kurma örneði.
+LT_02. SCR, DIAC ve TRIAC örnekleri.
+    LT_0201a.asc: Ýþlevsiz Pulse ve opto transistörlü çift SCR Sinüs dalgasý tetikleme devresi örneði.
+    LT_0201b.asc: SCR kapýsýna 430mV gerilim darbesiyle anot-katotun açýlmasý örneði.
+    LT_0202.asc: Triyak kapýsýnýn her sinüs yarým dalga ortasýnda tetiklenerek açýlmasý örneði.
+    LT_0203.asc: 6 kademeli karartýcý dirençli Triyak tetikleme devresi örneði.
+    LT_0204.asc: Standart ve Þotki çiftüþekle DC süpürme simülasyonu örneði.
+LT_03. zpostbox.ru ile LTspice örnekleri.
+    LT_0301.asc: Opamp ile .wav ses dosyasý üretme örneði.
+    LT_0302.asc: Þmit inverter logic gate ile osilasyon devresi örneði.
+    LT_0303.asc: Çift npn yükselteçle, çoklu titreþimli dengesiz kare dalgalar üretme örneði.
+    LT_0304.asc: CSW akým kontrollu düðmeyle sensör okumasýna duyarlý kapama devre örneði.
+LT_04. Steve Knudtsen ile LTspice örnekleri.
+    LT_0401.asc: LTC3412A hazýr PowerProduct güç devresi test ürünü örneði.
+    LT_0402.asc: Kare dalga kaynaklý þarj-deþarjlý direnç ve sýðaç devresi örneði.
+    LT_0403.asc: LTC3412A düzelticili/regulator hazýr demo devresi örneði.
+    LT_0404.asc: AC Transient simülasyon için basit bir RC devresi örneði.
+    LT_0405.asc: Bir zener diyot modelini ekli txt dosyasýndaki modele include yapma örneði.
+    LT_0405x.txt: Zener diyot modeli tanýmlama alt-örneði.
+LT_05. Türkçe LTspice örnekleri.
+    LT_0501.asc: Karmaþýk dirençli DC devrede Vyük gerilimi örneði.
+    LT_0502.asc: Kare dalga gerilim kaynaklý RC þarj-deþarj devresi örneði.
+    LT_0503.asc: AC gerilim kaynaðýndaki çiftüþeðin sadece pozitif dalgayý geçirmesi örneði.
+    LT_0504.asc: Dönüþtüreçle yalýtýlmýþ çiftüþekli köprü tam doðrultaç devresi örneði.
+    LT_0505.asc: Bir NPN yükselteçte çýktý gerilim/akým sinyalinin kazancýný hesaplama örneði.
+    LT_0506.asc: Yayýcý takipçi NPN yükselteç devresinde giriþ ve çýkýþ engeleçlerinin hesaplanmasý örneði.
+    LT_0507.asc: Bir LC çýnlaným devresinde AC analiz (frekans süpürme) simülasyonu örneði.
+LT_06. allaboutcircuits.com/T.Gamblin ilk ve orta derece LTspice örnekleri.
+    LT_0601.asc: Bir universal OpAmp'le girdi gerilimlerin ters toplamýný elde etme örneði.
+    LT_0602.asc: Bantgeçiþ LC çýnlaným tank devresiyle AC (frekans) süpürme örneði.
+    LT_0603.asc: Toplayýcý direnci parametrik step süpürme simülasyonlu yükselteç kazancý örneði.
+    LT_0604.asc: Pulse darbeli kare dalga kaynaklý gerilim bölücü devresi örneði.
+LT_07. LongerIntro ile LTspice örnekleri.
+    LT_0701.asc: Çift kaynaklý T direnç devresinde .op DC simülasyonla akým, gerilim, güç sarfiyatý hesaplamalarý örneði.
+    LT_0702.asc: Tek gerilim darbeli RLC parametrik direnç süpürmeli salýným devresi örneði.
+    LT_0703.asc: NPN yükselteç toplayýcý akýmýnýn ortam ýsý artýþýyla artmasý örneði.
+    LT_0704.asc: BJT-NPN yükselteç çýktý geriliminin bantgeçiþ frekanlarýnýn measure/olçülmesi örneði.
+    LT_0705.asc: BJT-NPN için temel akým ve tedarik gerilim kaynaklarýnýn DC süpürme simülasyonu örneði.
+    LT_0706.asc: JFET yükselteç kapý hattý uç irkilecinde osilasyon örneði.
+LT_08. Laurier ile ve diðer LTspice örnekleri.
+    LT_0801.asc: Çapraz tel çizimleri, op ve netlist dökümleri örneði.
+    LT_0802.asc: AC ve parametrik simülasyon ile kompleks hesaplar örneði.
+    LT_0803a.asc: BJT-NPN yükselteçde kaynak gerilimi DC süpürme simülasyonu örneði.
+    LT_0803b.asc: BJT-NPN yükselteçde kaynak gerilimi parametrik step simülasyonu örneði.
+    LT_0803c.asc: BJT-NPN yükselteçde kaynak gerilimi parametrik step liste simülasyonu örneði.
+    LT_0804a.asc: RC devresinin frekans süpürme simülasyonu örneði.
+    LT_0804b.asc: Çiftüþekli sýðaç devresinin çýktý gerilimine doðrultaç etkisi örneði.
+    LT_0805a.asc: LT1001 OpAmp/ÝþYük devresiyle AC frekans süpürme ve bantgeçiþ alt/üst frekanslarý örneði.
+    LT_0805b.asc: LT1001 OpAmp/ÝþYük devresiyle zaman süpürme simülasyonu örneði.
+    LT_0805c.asc: Deðiþtirilen ve eklenen yeni model TLE2037 OpAmp/ÝþYük devresiyle zaman süpürme simülasyonu örneði.
+    LT_0806a.asc: Nicholas Lombardo ile basit devre grafikleri örneði.
+    LT_0806b.asc: Tek parametrik ve çoklu deðer step dirençler simülasyonu örneði.
+    LT_0806c.asc: Gerilim düzelteçli DC gerilim süpürmesi simülasyonu örneði.
+    LT_0806d.asc: Bir bantgeçiþ RC devresinde frekans süpürmeli çýktý kazancý/kaybý grafiði örneði.
+    LT_0806e.asc: Bir tersinir ÝþYük/OpAmp düþükgeçiþ devresinde frekans ve zaman süpürmesi örneði.
+    LT_0806f.asc: Darbeli gerilim kaynaklý RC düþükgeçiþ süzgeç devresinde zaman süpürmesi örneði.
+    LT_0806g.asc: AC'den DC'ye çiftüþekli köprüdoðrultaç devresinde sýðaçla parametrik adým ve zaman süpürmesi örneði.
+    LT_0807a.asc: Zheng Haun Qun ile kendi tasarýmýz Inverter/çevirici ile devre örneði.
+    LT_0807ax.asc: Kendi tasarýmýz Inverter/çevirici devresi alt-örneði.
+    LT_0807ax.asy: Kendi tasarýmýz Inverter/çevirici sembolü alt-örneði.
+    LT_0807b.asc: Kendi tasarýmýz Inverter/tersleyici'li devrede zaman süpürmesi örneði.
+    LT_0807c.asc: Inverter/tersleyici'de Vin ile Vout arasýndaki gecikme ve yükseliþ/düþüþ zamanlarý örneði.
+    LT_0807d.asc: Inverter/tersleyici devresinde statik güç sarfiyatý örneði.
+    LT_0807e.asc: Inverter/tersleyici devresinde dinamik güç sarfiyatý örneði.
+    LT_0808a.asc: SpiceSimulationUsingLTspice makalesinden SCR Tristör tasarýmý ve direnç yükünü düðmeleme örneði.
+    LT_0808b.asc: Tristörle irkileç yükünü düðmeleme örneði.
+    LT_0808c.asc: SCR kapý dönüþtüreçli irkileç yükünü düðmeleme örneði.
+    LT_0809a.asc: Fabrice Wateau ile DC .op simülasyonu örneði.
+    LT_0809b.asc: DC süpürme simülasyonu örneði.
+    LT_0809c.asc: Ýkinci kaynakla DC süpürme simülasyonu örneði.
+    LT_0809d.asc: DC kaynaklý çiftüþek devresinde .op simülasyonu örneði.
+    LT_0809e.asc: DC kaynaklý çiftüþek devresinde DC süpürme örneði.
+    LT_0809f.asc: DC akým kaynaklý BJT yükselteç devresinde DC süpürme örneði.
+    LT_0809g.asc: Düþükgeçiþ süzgeçli RC devresinde darbeli gerilim kaynaðý örneði.
+    LT_0809h.asc: Sinüs gerilim kaynaklý çiftüþek devresinde direnç yük gerilim çýktýsý örneði.
+    LT_0809i.asc: Düþükgeçiþ süzgeçli RC devresinde frekans süpürmesi örneði.
+    LT_0809j.asc: Direnç potansiyometre/gerilimbölerinde parametrik adýmlý .op süpürmesi örneði.
+    LT_0809k.asc: RC devresi zaman süpürmesinde .meas direktifli ölçüm örneði.
+    LT_0809l.asc: Wien OpAmp/ÝþYük devresinde çýktý sinyalinin dalgaboyu-frekans deðiþimi örneði.
+    LT_0810a.asc: Lynn Fuller ile basit gerilim bölücü R-L-C süzgeç devreleri örneði.
