@@ -12,3 +12,5 @@ Simülasyonlar toplam 7 temel gruplamadan müteşekküldür:
 İsteyen orijinal İngilizce pdf kitaplara www.allaboutcircuits.com/textbooks'tan ulaşabilir, ücretsiz indirebilir.
 Kitaplardaki mümkün hemen her devrenin işleyen modern LTspice simülasyonu yapılmıştır.
 Test edebilir, değiştirebilirsiniz.
+
+NOT: (5-10-20-50-100 TL) gönlünüzden kopacak bağışlarınızı qnbfinansbank.enpara.com'daki TR73.0011.1000.0000.0038.1715.07 no'lu cari hesabıma eft gönderirseniz, beni teşvikler ve sevindirirsiniz.
