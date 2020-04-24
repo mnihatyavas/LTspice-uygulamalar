@@ -1,0 +1,145 @@
+Ray Powell: Introductions to Electric Circuits (66 adet örnek)
+===============================================
+
+1 Units and dimensions (3 adet)
+    1.1 Introduction
+    1.2 The Systeme International d'Units
+        LT0102a.asc: SI temel ölçüm birimleri örneði.
+    1.3 Dimensional analysis
+        LT0103a.asc: Boyutsal dengeleme analizi örneði.
+    1.4 Multiples and submultiples of units
+        LT0104a.asc: Birimlerin üstkatlarý ve altkatlarý örneði.
+
+2 Electric circuit elements (9 adet)
+    2.1 Electricity
+    2.2 Electric circuits
+    2.3 Circuit elements
+        LT0203a.asc: Devre elemanlarýndan aktif (gerilim ve akým) enerji kaynaklarý örneði.
+        LT0203b.asc: Gerilim kaynaðýna baðlý seri dirençler örneði.
+        LT0203c.asc: Gerilim kaynaðýna baðlý paralel dirençler örneði.
+        LT0203d.asc: Dirençlerin 4 bantlý renk kodlamasýyla 1-2 deðer 3 üs ve 4 % tolerans örneði.
+        LT0203e.asc: Pasif devre elemanlarýndan sýðaç örneði.
+        LT0203f.asc: Pasif devre elemaný irkileç örneði.
+    2.4 Lumped parameters
+        LT0204a.asc: Nakil hatlarýndaki direnç, sýðaç ve irkilecin hat uzunluðunca karmalýðý örneði.
+    2.5 Energy stored in circuit elements
+        LT0205a.asc: Devre elemanlarýnda depolanan enerjiler örneði.
+    2.6 Power dissipated in circuit elements
+        LT0206a.asc: Devre elemanlarýnda harcanan güç örneði.
+
+3 DC circuit analysis (10 adet)
+    3.1 Introduction
+    3.2 Definition of terms
+    3.3 Kirchhoff's current law
+    3.4 Kirchhoff's voltage law
+        LT0304a.asc: Kirchhoff'un kapalý döngü gerilimleri toplamý sýfýrdýr KVL kanunu örneði.
+        LT0304a.asc: Akým ve gerilim kaynaklý direnç devresinde akýmlar örneði.
+    3.5 The Principle of Superposition
+        LT0305a.asc: Çoklu kaynaklý devrelerde üstdüþüm prensibi örneði.
+        LT0305b.asc: Üstdüþümle akým ve gerilim kaynaklý devrede Ir1 akýmýný hesaplama örneði.
+    3.6 Thevenin's theorem
+        LT0306a.asc: Thevenin teoremiyle eþdeðer gerilim ve seri direnç hesabý örneði.
+        LT0306b.asc: Thevenin'le deðiþken Ryük'e baðlý min/max akým hesabý örneði.
+    3.7 Norton's theorem
+        LT0307a.asc: Norton teoremiyle eþdeðer akým kaynaðý ve paralel direnç örneði.
+    3.8 The Maximum Power Transfer Theorem
+        LT0308a.asc: Thevenin eþdeðer devrede azami güç aktarýmý örneði.
+    3.9 Delta-star transformation
+        LT0309a.asc: Üçgen/Delta/D/Göz-Yýldýz/Y/Yumru eþdeðer dirençler dönüþümü örneði.
+    3.10 Star-delta transformation
+        LT0310a.asc: Yýldýz-Delta direnç devresi dönüþümü örneði.
+
+4 Single-phase a.c. circuits (10 adet)
+    4.1 Alternating quantities
+        LT0401a.asc: Tek fazlý AC devresi örneði.
+        LT0401b.asc: Sinüs dalgalý AC için max, rms, av ve ff hesaplarý örneði.
+    4.2 Single-phase a.c. circuits in the steady state
+        LT0402a.asc: Tek fazlý AC devrede sadece direnç, irkileç yada sýðaç olmasý örneði.
+    4.3 Series a.c. circuits
+        LT0403a.asc: Seri AC devreleri örneði.
+    4.4 Complex notation
+        LT0404a.asc: Deðerlerin argand diyagramda kompleks gösterimi örneði.
+        LT0404b.asc: Kompleks sayýlarla dört iþlem örneði.
+        LT0404c.asc: Seri AC devre analizi uygulamasý örneði.
+    4.5 Parallel a.c. circuits
+        LT0405a.asc: Paralel AC devreleri örneði.
+    4.6 Series-parallel a.c. circuits
+        LT0406a.asc: Seri paralel AC devreleri örneði.
+    4.7 Power in single-phase a.c. circuits
+        LT0407a.asc: Tek fazlý AC devrelerde güç örneði.
+ 
+5 Three-phase a.c. circuits (4 adet)
+    5.1 Introduction
+    5.2 Generation of three-phase voltage
+    5.3 Phase sequence
+    5.4 Balanced three-phase systems
+        LT0504a.asc: Simetrik ve dengeli üç fazlý yýldýz sistem örneði.
+        LT0504b.asc: Simetrik ve dengeli üç fazlý delta sistem örneði.
+    5.5 Power in balanced three-phase circuits
+        LT0505a.asc: Dengeli üç fazlý devrelerde güç örneði.
+        LT0505b.asc: Dengeli üç fazlý devrelerde güç ölçümü örneði.
+ 
+6 Resonance (6 adet)
+    6.1 Series resonance
+        LT0601a.asc: Seri RLC devrede rezonans/çýnlaným örneði.
+        LT0601b.asc: RLC devrede rezonans çeli ve akýmý örneði.
+        LT0601c.asc: Seri RLC rezonant devrede Q kalite faktörü örneði.
+        LT0601d.asc: Seri RLC devrelerinde sinyal filitreleme ve bantgeçiþ örneði.
+    6.12Parallel resonance
+        LT0602a.asc: Paralel RL//C rezonans devresi örneði.
+        LT0602b.asc: Paralel RLC rezonans devresinde bant geniþliði örneði.
+
+7 Nodal and mesh analysis (8 adet)
+    7.1 Introduction
+    7.2 Matrices
+        LT0702a.asc: Satýr ve sütun çoklu elemanlý matris iþlemleri örneði.
+    7.3 Nodal voltage analysis
+        LT0703a.asc: KCL yumrusal akým analizi yöntemiyle V2 bulunmasý örneði.
+        LT0703b.asc:KCL yumrusal akým naliziyle V2 ve Ik2 bulunmasý örneði.
+        LT0703c.asc: KCL yumru analizinin reaktif AC devrelerine uygulanmasý örneði.
+        LT0703d.asc: KCL'in süperyumrulara uygulanmasý örneði.
+    7.4 Mesh current analysis
+        LT0704a.asc: KVL göz akým analizi örneði.
+        LT0704b.asc: KVL göz akýmýný gerilim ve akým kaynaklý devreye uygulama örneði.
+        LT0704c.asc: KVL göz akýmýný süpergözlü devreye uygulama örneði.
+
+8 Transient analysis (9 adet)
+    8.1 Introduction
+    8.2 Circuits containing resistance and inductance
+        LT0802a.asc: Seri direnç ve irkileç devrelerindeki zaman/transient analizi örneði.
+        LT0802b.asc: Seri direnç ve irkileç devrelerindeki ani kaynak kesintisi örneði.
+        LT0802c.asc: Darbe kaynaklý LR entegratör/tümleyici devresi örneði.
+        LT0802d.asc: Darbe kaynaklý LR diferansiyatör/türevleyici devresi örneði.
+    8.3 Circuits containing resistance and capacitance
+        LT0803a.asc: Sýðaç ve direnç RC devrelerinde transient/zaman analizi örneði.
+        LT0803b.asc: RC devesinde zaman sabitesi örneði.
+        LT0803c.asc: Seri RC devresinde sýðacýn deþarjý örneði.
+        LT0803d.asc: RC tümleyen devre çýktýsý örneði.
+        LT0803e.asc: RC türevleyen devre örneði.
+    8.4 The Laplace transform
+
+ 9 Two-port networks (5 adet)
+    9.1 Introduction
+    9.2 The impedance or z-parameters
+        LT0902a.asc: Ýki limanlý aðdaki çeli veya Z-parametreleri örneði.
+    9.3 The admittance or y-parameters
+        LT0903a.asc: Y-parametreleri yada kabul örneði.
+    9.4 The hybrid or h-parameters
+    9.5 The inverse hybrid or g-parameters
+    9.6 The transmission or ABCD-parameters
+    9.7 The inverse transmission parameters
+        LT0907a.asc: Ters melez parametre olarak kýsa enejji nakil hattý örneði.
+    9.8 Cascaded two-port networks
+        LT0909a.asc: Ýki limanlý basamaklý pi devresinde karakteristik çeli Z0 örneði.
+    9.9 Characteristic impedance (Z0)
+    9.10 Image impedances
+    9.11 Insertion loss
+        LT0911a.asc: Çeli uyumunda araya sokuþ kaybý örneði.
+    9.12 Propagation coefficient (3')
+
+10 Duals and analogues (2 adet)
+    10.1 Duals of circuit elements
+    10.2 Dual circuits
+        LT1002a.asc: Devre elemanlarýnýn çifteþleri örneði.
+    10.3 Analogues
+        LT1003a.asc: Farklý fiziksel sistemler ve matematiksel eþitlikleri arasýndaki benzeþmeler örneði.
