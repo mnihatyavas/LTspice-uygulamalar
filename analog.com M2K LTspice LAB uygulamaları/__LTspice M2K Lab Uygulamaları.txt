@@ -1,0 +1,92 @@
+https://wiki.analog.com/university/courses/electronics/labs
+https://github.com/analogdevicesinc/education_tools/tree/master/m2k/ltspice
+
+A. Electronics I
+    A1. An Ohm's Law Experiment
+    A2. Transient Response of an RC Circuit
+    A3. Transient Response of an RL Circuit
+    A4. Low Pass and High Pass Filters
+    A5. Band Pass Filters
+    A6. Band Stop Filters
+    A7. Resonance in RLC Circuits
+    A8. Cascaded RC low pass filters
+    A9. Simple Op Amps,Op Amp as Comparator,Op Amp Settling Time, Measuring Loop Gain
+    A10. PN Diode I/V curves
+    A11. Voltage dependent capacitance of the PN junction
+    A12. Differential Temperature Sensor
+    A13.Zener diode regulator
+    A14. BJT as a diode, MOS as a diode
+    A15. Device I/V curves, BJT and MOS
+    A16. Common emitter amplifier, Common source amplifier, Amplifier Frequency Response, CE amplifier loop gain
+    A17. BJT Current Mirror, MOS Current Mirror
+    A18. BJT Zero gain amplifier, MOS Zero gain amplifier
+    A19. BJT Stabilized current source, MOS Stabilized current source
+    A20. Floating (two terminal) Current Source / Sink
+    A21. Regulated Voltage Reference
+    A22. Shunt voltage regulator
+    A23. BJT Emitter follower, MOS source follower
+    A24. BJT Differential Pair, MOS Differential Pair, Transresistance input stage
+    A25. Differential pair triangle to sine converter
+    A26. Making a full Amplifier from circuit blocks. Output Stages
+
+B. Electronics II
+    B1. CMOS Amplifier (with chopping / auto zero)
+    B2. CMOS Analog Switches
+    B3. Switched Capacitor circuits
+    B4.Analog to Digital and Digital to Analog Conversion
+    B5. Delta – Sigma Modulator
+    B6. CMOS LC Oscillator
+    B7. Light Controlled RC Oscillator
+    B8. Optocouplers ( analog isolation amplifier )
+    B9. Silicon Controlled Rectifiers
+    B10. Active Rectifiers
+    B11. DC-DC Converters I ( inductors )
+    B12. DC-DC Converters II ( capacitors )
+    B13. Multivibrators, NPN and NMOS
+    B14. TTL inverter and NAND gate
+    B15. Build CMOS Logic Functions Using CD4007 Array
+    B16. CMOS Logic Circuits, Transmission Gate XOR
+    B17. CMOS Logic Circuits, D Type Latch
+    B18. Logic Voltage Level Shifting
+    B19. Phase locked loops
+
+C. Miscellaneous Lab Activities
+    C1. LED as light sensor
+    C2. Characteristics of Photovoltaic Solar Cells
+    C3. Negative voltage reference from positive reference
+    C4. Measuring a Loudspeaker Impedance Profile
+    C5. Adjustable External Triggering Circuit
+    C6. Heartbeat Measurement Circuit
+    C7. Temperature Control using Window Comparator
+    C8. Magnetic proximity sensor
+    C9. 2-Axis Tilt Sensor
+    C10. IC temperature sensors
+
+D. Communications Circuits
+    D1. Inductor Self Resonance
+    D2. Transformers
+    D3. Tuned Amplifiers,part I, Tuned Amplifiers,part II
+    D4. Transformer Coupled Amplifier
+    D5. Active Filters, Polyphase Filters
+    D6. Envelope Detectors
+    D7. FM Detectors
+    D8. Variable Gain Amplifiers
+    D9. Pulse Width Modulation
+    D10. Frequency Synthesizers, Hartley oscillator, Colpitts oscillator, Clapp oscillator, Peltz Oscillator
+    D11. Pulsed Oscillators
+    D12. Diode Ring Modulators
+    D13. Active Mixers
+    D14. Pseudo-Random Sequence Generators
+
+E. Power Management Circuits
+    E1. Switched Capacitor Power Supplies
+    E2. Buck Converter Basics
+    E3. Efficiency, Power Loss, and Thermal Management
+
+F. General Lab materials
+    F1. Background Lab Notes: Solder-less Breadboards
+    F2. Background Lab Activity: Solder-less Breadboard Parasitic Capacitance
+    F3. Background Lab Notes: Resistors (including color code)
+    F4. Background Lab Notes: Capacitors (including color code)
+    F5. Review Activity: Real voltage sources
+    F6. Basic Activity: Energy Harvesting
