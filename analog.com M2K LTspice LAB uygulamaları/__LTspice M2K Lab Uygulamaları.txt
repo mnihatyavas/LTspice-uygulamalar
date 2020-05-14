@@ -1,0 +1,126 @@
+https://wiki.analog.com/university/courses/electronics/labs
+https://github.com/analogdevicesinc/education_tools/tree/master/m2k/ltspice
+
+A. Electronics I
+    A1. An Ohm's Law Experiment
+        LT_A1.asc: Ohm kanunu deneyi örneði.
+    A2. Transient Response of an RC Circuit
+        LT_A2.asc: Bir seri RC devresinin geçici zaman tepkisi ve katsayýsý örneði.
+    A3. Transient Response of an RL Circuit
+        LT_A3.asc: Seri RL devresinde irkilecin geçici tepkisi ve zaman sabitesi örneði.
+    A4. Low Pass and High Pass Filters
+        LT_A4.asc: RC düþük-geçiþ ve RL yüksek-geçiþ pasif filitreler örneði.
+    A5. Band Pass Filters
+        LT_A5.asc: Seri R ve paralel LC devresiyle bant geçiþ süzgeci örneði.
+    A6. Band Stop Filters
+        LT_A6.asc: Seri RLC devresiyle bant durduruþ süzgeci örneði.
+    A7. Resonance in RLC Circuits
+        LT_A7.asc: Parallel ve seri RLC devrelerinde rezonans örneði.
+    A8. Cascaded RC low pass filters
+        LT_A8a.asc: Basamaklý RC düþük geçiþ süzgeçleri örneði.
+        LT_A8b.asc: Birinci, ikinci ve üçüncü derece RC düþük geçiþ süzgeçleri örneði.
+    A9. Simple Op Amps,Op Amp as Comparator,Op Amp Settling Time, Measuring Loop Gain
+        LT_A9_1a.asc: OpAmp/ÝþYük birebir kazançlý tamponlayan gerilim-takipci devresi örneði.
+        LT_A9_1b.asc: Tersleyen ve yükselten ÝþYük devresi örneði.
+        LT_A9_1c.asc: Tersleyen, yükselten ve negatif toplayan ÝþYük devresi örneði.
+        LT_A9_1d.asc: Terslemeyen ve yükselten ÝþYük devresi örneði.
+        LT_A9_2a.asc: Basit comparator/karþýlaþtýrýcý ÝþYük devresi örneði.
+        LT_A9_2b.asc: Tersinmez isterik karþýlaþtýrýcýlý ÝþYük devresi örneði.
+       LT_A9_2c.asc: Tersinir isterik karþýlaþtýrýcýlý ÝþYük devresi örneði.
+        LT_A9_2d.asc: Asimetrik eþikli tersinir isterik karþýlaþtýrýcýlý ÝþYük devresi örneði.
+        LT_A9_2e.asc: LED ile çýktý gerilim seviyesi gösterici karþýlaþtýrýcý ÝþYük devresi örneði.
+        LT_A9_3a.asc: ÝþYük darbeli çýktý yükseliþ ve düþüþ bitimindeki sakinleþme zamaný örneði.
+        LT_A9_3a1.asc: Deðiþken dirençli pota þemasý alt-örneði.
+        LT_A9_3a1.asy: Deðiþken dirençli pota sembolü alt-örneði.
+        LT_A9_4a.asc: Tersinir ÝþYük devresinde negatif döngü kazancýnýn ölçülmesi örneði.
+    A10. PN Diode I/V curves
+        LT_A10a.asc: Çiftüþek/diyot'lu devrenin akým ve gerilim eðrileri örneði.
+        LT_A10b.asc: Tek çiftüþekle yarým dalga AC doðrultaç devresi örneði.
+        LT_A10c.asc: Çift çiftüþekle tam dalga AC doðrultaç devresi örneði.
+        LT_A10d.asc: Dörtt çiftüþekle tam dalga AC köprü doðrultaç devresi örneði.
+        LT_A10e.asc: Ýki çiftüþekli sýnýrlayýcý kýskaç devresi örneði.
+        LT_A10f.asc: Çiftüþek'le sinyaldeki AC kýsmý birleþtirme ve DC kýsmý yeniden kurma örneði.
+        LT_A10g.asc: Çiftüþek ve pot dirençle deðiþtirilebilir zayýflatýcý devresi örneði.
+        LT_A10h.asc: Çiftüþek ve ÝþYük'le hassas yarým dalga doðrultaç devresi örneði.
+        LT_A10i.asc: Çiftüþek ve ÝþYük'le hassas tam dalga doðrultaç devresi örneði.
+        LT_A10j.asc: Ýki sýðaç ve iki çiftüþekle ideal DC çýktýlý gerilim dubleci devre örneði.
+        LT_A10k.asc: CMOS NOT devresiyle it-çek çiftüþekli gerilim dubleci devre örneði.
+    A11. Voltage dependent capacitance of the PN junction
+        LT_A11a.asc: Ters baðlý PN eklemli çiftüþeðin gerilime baðlý sýðasý örneði.
+    A12. Differential Temperature Sensor
+    A13.Zener diode regulator
+    A14. BJT as a diode, MOS as a diode
+    A15. Device I/V curves, BJT and MOS
+    A16. Common emitter amplifier, Common source amplifier, Amplifier Frequency Response, CE amplifier loop gain
+    A17. BJT Current Mirror, MOS Current Mirror
+    A18. BJT Zero gain amplifier, MOS Zero gain amplifier
+    A19. BJT Stabilized current source, MOS Stabilized current source
+    A20. Floating (two terminal) Current Source / Sink
+    A21. Regulated Voltage Reference
+    A22. Shunt voltage regulator
+    A23. BJT Emitter follower, MOS source follower
+    A24. BJT Differential Pair, MOS Differential Pair, Transresistance input stage
+    A25. Differential pair triangle to sine converter
+    A26. Making a full Amplifier from circuit blocks. Output Stages
+
+B. Electronics II
+    B1. CMOS Amplifier (with chopping / auto zero)
+    B2. CMOS Analog Switches
+    B3. Switched Capacitor circuits
+    B4.Analog to Digital and Digital to Analog Conversion
+    B5. Delta – Sigma Modulator
+    B6. CMOS LC Oscillator
+    B7. Light Controlled RC Oscillator
+    B8. Optocouplers ( analog isolation amplifier )
+    B9. Silicon Controlled Rectifiers
+    B10. Active Rectifiers
+    B11. DC-DC Converters I ( inductors )
+    B12. DC-DC Converters II ( capacitors )
+    B13. Multivibrators, NPN and NMOS
+    B14. TTL inverter and NAND gate
+    B15. Build CMOS Logic Functions Using CD4007 Array
+    B16. CMOS Logic Circuits, Transmission Gate XOR
+    B17. CMOS Logic Circuits, D Type Latch
+    B18. Logic Voltage Level Shifting
+    B19. Phase locked loops
+
+C. Miscellaneous Lab Activities
+    C1. LED as light sensor
+    C2. Characteristics of Photovoltaic Solar Cells
+    C3. Negative voltage reference from positive reference
+    C4. Measuring a Loudspeaker Impedance Profile
+    C5. Adjustable External Triggering Circuit
+    C6. Heartbeat Measurement Circuit
+    C7. Temperature Control using Window Comparator
+    C8. Magnetic proximity sensor
+    C9. 2-Axis Tilt Sensor
+    C10. IC temperature sensors
+
+D. Communications Circuits
+    D1. Inductor Self Resonance
+    D2. Transformers
+    D3. Tuned Amplifiers,part I, Tuned Amplifiers,part II
+    D4. Transformer Coupled Amplifier
+    D5. Active Filters, Polyphase Filters
+    D6. Envelope Detectors
+    D7. FM Detectors
+    D8. Variable Gain Amplifiers
+    D9. Pulse Width Modulation
+    D10. Frequency Synthesizers, Hartley oscillator, Colpitts oscillator, Clapp oscillator, Peltz Oscillator
+    D11. Pulsed Oscillators
+    D12. Diode Ring Modulators
+    D13. Active Mixers
+    D14. Pseudo-Random Sequence Generators
+
+E. Power Management Circuits
+    E1. Switched Capacitor Power Supplies
+    E2. Buck Converter Basics
+    E3. Efficiency, Power Loss, and Thermal Management
+
+F. General Lab materials
+    F1. Background Lab Notes: Solder-less Breadboards
+    F2. Background Lab Activity: Solder-less Breadboard Parasitic Capacitance
+    F3. Background Lab Notes: Resistors (including color code)
+    F4. Background Lab Notes: Capacitors (including color code)
+    F5. Review Activity: Real voltage sources
+    F6. Basic Activity: Energy Harvesting
