@@ -1,5 +1,5 @@
-1. Basic Electricity
----------------------------
+1. Basic Electricity (26 örnek)
+-----------------------------------------
     1.1. Soldering
     1.2. Energy, Work, and Power
         LT_102.asc: Elektriksel enerji, iþ ve güç örneði.
@@ -58,93 +58,145 @@
     1.33. Batteries
         LT_133.asc: Bataryalar ve ampersaat deþarj kapasiteleri örneði.
     1.34. Overcurrent Protection
-        LT_134.asc: Devrelerde aþýrýakým risklerive korunma örneði.
+        LT_134.asc: Devrelerde aþýrýakým riskleri ve korunma örneði.
     1.35. Basic Circuit Troubleshooting
     1.36. Switches
     1.37. Basic Voltmeter Use
     1.38. Resistors
         LT_138.asc: Dirençler ve elektrik devresindeki iþlevleri örneði.
 
-2. DC Electric Circuits
-----------------------------------
+2. DC Electric Circuits (18 örnek)
+----------------------------------------------
     2.01. DC Motor Theory
         LT_201.asc: DC doðru akým motor teorisi örneði.
     2.02. DC Generator Theory
         LT_202.asc: DC doðru akým jeneratör teorisi örneði.
     2.03. Series-Parallel DC Circuits
+        LT_203.asc: Seri ve paralel DC devreleri örneði.
     2.04. DC Metrology
     2.05. Time Constant Calculations
+        LT_205.asc: DC-LC devrelerinde zaman sabitesi örneði.
     2.06. Voltmeter Design
+        LT_206.asc: Kendi basit gerilimölçerinin tasarlanmasý örneði.
     2.07. Current Divider Circuits
+        LT_207.asc: Akým bölücü devre tasarýmlarý örneði.
     2.08. Inductors
+        LT_208.asc: DC devrede irkileç/endüktör/bobin tasarýmlarý örneði.
     2.09. Intermediate Electromagnetism and Electromagnetic Induction
+        LT_209.asc: DC devrede elektromanyetik irkilme örneði.
     2.10. Kirchhoff's Laws
+        LT_210.asc: Devre gerilimleri toplamýný sýfýrlayan Kirçhof Kanunu örneði.
     2.11. Voltage Divider Circuits
+        LT_211.asc: Seri dirençli gerilim bölücü devre örneði.
     2.12. Capacitors
+        LT_212.asc: Kapasitör/sýðaç devreleri örneði.
     2.13. Potentiometers
+        LT_213.asc: Deðiþken dirençli potansiyometreler/pot örneði.
     2.14. DC Transducers
     2.15. Magnetic Units of Measurement
+        LT_215.asc: Manyetik ölçüm birimleri örneði.
     2.16. Performance-Based Assessments for DC Circuit Competencies
     2.17. Design Project: DC Motor
     2.18. Inductance
+        LT_218.asc: Endüktif irkilme örneði.
     2.19. Time Constant Circuits
     2.20. DC Motor Control Circuits
     2.21. Capacitance
+        LT_221.asc: Kapasitif sýðaçlama örneði.
     2.22. DC Bridge Circuits
+        LT_222.asc: DC dirençli köprü devreleri örneði.
     2.23. Time Constant Circuits
+        LT_223.asc: RLC zaman sabiti devreleri örneði.
     2.24. Ammeter Design
+        LT_224.asc: Ampermetre akýmölçer tasarým örneði.
     2.25. Design Project: Voltmeter
 
-3. AC Electric Circuits
-------------------------------------
-Design Project: Sensitive Audio Detector
-AC phase
-AC Motor Control Circuits
-Step-up, Step-down, and Isolation Transformers
-AC Waveforms
-Series and Parallel AC Circuits
-AC Metrology
-Fundamentals of Radio Communication
-AC Motor Theory
-Series-Parallel Combination AC Circuits
-Performance-Based Assessments for AC Circuit Competencies
-Decibel Measurements
-Basic Oscilloscope Operation
-Electrical Noise and Interference
-Advanced Electromagnetism and Electromagnetic Induction
-Characteristic Impedance
-Inductive Reactance
-Impedance Matching With Transformers
-Mixed-Frequency Signals
-Resonance
-Voltage Divider Circuits
-AC Generator Theory
-Peak, Average, and RMS Measurements
-Autotransformers
-Design Project: Audio Tone Control
-Oscilloscope Trigger Controls
-Polyphase Power Systems
-AC Power
-Impedance
-Delta and Wye 3-Phase Circuits
-Capacitive Reactance
-Four-Channel Audio Mixer
-Passive Filter Circuits
-Passive Integrator and Differentiator Circuits
-Mutual Inductance
-Microphones
+3. AC Electric Circuits (31 örnek)
+----------------------------------------------
+    3.01. Design Project: Sensitive Audio Detector
+        LT_301.asc: Hassas ses tespitçisi tasarýmý örneði.
+    3.02. AC phase
+        LT_302.asc: AC/AlternatingCurrent/AlternatifAkým fazlý gerilim kaynaðý örneði.
+    3.03. AC Motor Control Circuits
+    3.04. Step-up, Step-down, and Isolation Transformers
+        LT_304.asc: Yükselten, düþüren ve yalýtan dönüþtüreçler örneði.
+    3.05. AC Waveforms
+        LT_305.asc: AC dalga biçimleri örneði.
+    3.06. Series and Parallel AC Circuits
+        LT_306.asc: Seri ve paralel AC devreleri ve ölçümleri örneði.
+    3.07. AC Metrology
+        LT_307.asc: AC gerilim ve akýmlarýnýn ölçülmesi örneði.
+    3.08. Fundamentals of Radio Communication
+        LT_308.asc: Radyo iletiþiminin temelleri örneði.
+    3.09. AC Motor Theory
+        LT_309.asc: AC alternatör motor teorisi örneði.
+    3.10. Series-Parallel Combination AC Circuits
+        LT_310.asc: Seri ve paralel karma baðlantýlý AC devreler örneði.
+    3.11. Performance-Based Assessments for AC Circuit Competencies
+    3.12. Decibel Measurements
+        LT_312.asc: Pasif AC devrelerde kazancýn desibel ölçümü örneði.
+    3.13. Basic Oscilloscope Operation
+        LT_313.asc: Temel osiloskop/salýnýmölçer iþlemleri örneði.
+    3.14 Electrical Noise and Interference
+        LT_314.asc: Elektriksel gürültü ve parazitsel müdahelesi örneði.
+    3.15. Advanced Electromagnetism and Electromagnetic Induction
+        LT_315.asc: Elektromanyetizm ve elektromanyetik endüklenme örneði.
+    3.16 Characteristic Impedance
+        LT_316.asc: Eþeksenli kablolardaki karakteristik çeli/empedans örneði.
+    3.17. Inductive Reactance
+        LT_317.asc: Frekansla artan endüktif reaktans/irkilen tepkileç örneði.
+    3.18. Impedance Matching With Transformers
+        LT_318.asc: Trafolarýn primer/segonder empedans/çeli uyumu örneði.
+    3.19. Mixed-Frequency Signals
+        LT_319.asc: Karýþýk frekans sinyalli devreler örneði.
+    3.20. Resonance
+        LT_320.asc: LC devrelerde enaz çelili çýnlaným frekansý örneði.
+    3.21. Voltage Divider Circuits
+        LT_321.asc: Gerilim bölücü devreler örneði.
+    3.22. AC Generator Theory
+        LT_322.asc: AC üreten jenaratör devresi örneði.
+    3.23. Peak, Average, and RMS Measurements
+        LT_323.asc: AC için tepe, ortalama ve RMS/RootMeanSquare deðerler örneði.
+    3.24. Autotransformers
+        LT_324.asc: Deðiþken çýktý gerilimli ototrafolar örneði.
+    3.25. Design Project: Audio Tone Control
+    3.26. Oscilloscope Trigger Controls
+        LT_326.asc: Osiloskop tetikleme kontrollarý örneði.
+    3.27. Polyphase Power Systems
+        LT_327.asc: Çokfazlý elektrik güç sistemleri örneði.
+    3.28. AC Power
+        LT_328.asc: AC Alternatif Akým güç hesaplamalarý örneði.
+    3.29. Impedance
+        LT_329.asc: Direnç, irkileç ve sýðaç karmasý çeli/empedans örneði.
+    3.30. Delta and Wye 3-Phase Circuits
+        LT_330.asc: Üç fazlý AC Delta ve Y devreleri örneði.
+    3.31. Capacitive Reactance
+        LT_331.asc: Frekansla azalan kapasitif reaktans/yoðuþan tepkileç örneði.
+    3.32. Four-Channel Audio Mixer
+    3.33. Passive Filter Circuits
+        LT_333.asc: Sýðaç ve irkileçli pasif filitre devreleri örneði.
+    3.34. Passive Integrator and Differentiator Circuits
+        LT_334.asc: Sýðaç ve irkileçli pasif tümleyici ve türevleyici devreler örneði.
+    3.35. Mutual Inductance
+        LT_335.asc: Çoklu irkileçli dönüþtüreçlerde karþýlýklý endüklenme örneði.
+    3.36. Microphones
 
 4. Network Analysis Techniques
 ------------------------------------------------
-DC Mesh Current Analysis
-Superposition Theorem
-Thevenin's, Norton's, and Maximum Power Transfer Theorems
-Performance-Based Assessments for Network Analysis Competencies
-Millman's Theorem
-AC Network Analysis
-DC Branch Current Analysis
-Simultaneous Equations for Circuit Analysis
-Component Modeling
+   4.01. DC Mesh Current Analysis
+        LT_401.asc: Dolanan DC mesh/göz döngülü akým analizi örneði.
+   4.02. Superposition Theorem
+        LT_402.asc: Süperpozisyon/üstüsteleme teoremi ile devre analizi örneði.
+   4.03. Thevenin's, Norton's, and Maximum Power Transfer Theorems
+        LT_403.asc: Thevenin gerilim kaynaðý, Norton akým kaynaðý ve azami güç aktarým kuramý örneði.
+   4.04. Performance-Based Assessments for Network Analysis Competencies
+   4.05. Millman's Theorem
+        LT_405.asc: Millman teorisiyle Thevenin-Norton çevrimleri örneði.
+   4.06. AC Network Analysis
+        LT_406.asc: Kompleks sayýlarla AC devre analizi örneði.
+   4.07. DC Branch Current Analysis
+   4.08. Simultaneous Equations for Circuit Analysis
+   4.09. Component Modeling
 
 5. Discrete Semiconductor Devices and Circuits
 ----------------------------------------------------------------------
