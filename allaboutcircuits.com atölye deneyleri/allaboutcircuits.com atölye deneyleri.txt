@@ -367,27 +367,56 @@
     7.03. High-Reliability Circuits
         LT_703.asc: Yüksek güvenilir kalitedeiki devreler örneði.
     7.04. Digital Codes
+        LT_704.asc: Bilgisayar devrelerindeki ikili sayýsal kodlamalar örneði.
     7.05. Analog-to-Digital Conversion
+        LT_705a.asc: ADC/AnalogtoDigitalConversion örnekselden sayýsala dönüþtüren devreler-1 örneði.
+        LT_705b.asc: Örnekselden sayýsala dönüþtüren devreler-2 örneði.
     7.06. Microprocessor Programming
     7.07. Multiplexers and Demultiplexers
+        LT_707.asc: Multiplexer/Çoklayýcý ve demultiplexer/çözücü entegreleri örneði.
     7.08. Digital Logic Signals
+        LT_708.asc: Sayýsal mantýk durumlarý ve devreleþtirme örneði.
     7.09. Stepper Motors
+        LT_709.asc: Sayýsal entegre kontrollu adým motor devresi örneði.
     7.10. Digital Display Circuits
+        LT_710.asc: Sayýsal görüntü entegre devreleri örneði.
     7.11. Sum-of-Products and Product-of-Sums Expressions
+        LT_711.asc: Ürünlerin toplamý ve toplamlarýn ürünü ifadeleri örneði.
     7.12. Counters
+        LT_712a.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-1 örneði.
+        LT_712b.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-2 örneði.
+        LT_712c.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-3 örneði.
+        LT_712d.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-4 örneði.
+        LT_712e.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-5 örneði.
+        LT_712x.asc: Geciktirmeli 3-NOT ve AND kapýlý saat devresi örneði.
+        LT_712x.asy: Geciktirmeli 3-NOT ve AND kapýlý saat devresi sembolü.
+        LT_712y.asc: 2-AND,  SR kapý ve saatla JK-FF devresi örneði.
+        LT_712y.asy: 2-AND,  SR kapý ve saatla JK-FF devresi sembolü.
+        LT_712z.asc: PRE-CLR, 2-AND,  SR kapý ve saatla JK-FF devresi örneði.
+        LT_712z.asy: PRE-CLR, 2-AND,  SR kapý ve saatla JK-FF devresi sembolü.
     7.13. Design Project: Arbitrary Waveform Generator
     7.14. Sources of Electricity
+        LT_714.asc: Çeþitli elektrik üreten kaynaklar örneði.
     7.15. Programmable Logic Technology
+        LT_715.asc: Programlanabilir mantýksal devre teknolojisi örneði.
     7.16. Microcontroller Principles
+        LT_716.asc: MCU/MicroControllerUnit mikrokontrolcülerin prensipleri örneði.
     7.17. Latch Circuits
+        LT_717a.asc: Latch/mandallanýp önceki sinyali sürdüren devreler-1 örneði.
+        LT_717b.asc: Latch/mandallanýp önceki sinyali sürdüren devreler-2 örneði.
     7.18. Digital-to-Analog Conversion
+        LT_718.asc: DAC/Digital-to-AnalogConversion sayýsaldan örneksele çevrim devreleri örneði.
     7.19. Design Project: Stepper Motor Driver
     7.20. Boolean Algebra
+        LT_720.asc: Ýkili sayý sisteminin cebiri, mantýk devreleri, merdiven diyagramý, gerçeklik tablosu örneði.
     7.21. Design Project: Event Counter
     7.22. Electromechanical Relay Logic
+        LT_722.asc: Elektromekanik röle devreleri ve mantýk kapý kontrolleri örneði.
     7.23. Karnaugh Mapping
+        LT_723.asc: Karnaugh haritalamayla Boolean ifadelerin sadeleþtirilmesi örneði.
     7.24. Design Project: Power Inverter
     7.25. Numeration Systems
+        LT_725.asc: On, iki, sekiz ve onaltý tabanlý sayý sistemleri örneði.
     7.26. CMOS Logic Gates
     7.27. TTL Logic Gates
     7.28. Memory Devices
