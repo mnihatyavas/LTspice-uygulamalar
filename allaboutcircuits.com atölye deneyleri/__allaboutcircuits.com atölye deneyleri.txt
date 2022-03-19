@@ -1,0 +1,476 @@
+1. Basic Electricity (26 örnek)
+-----------------------------------------
+    1.1. Soldering
+    1.2. Energy, Work, and Power
+        LT_102.asc: Elektriksel enerji, iþ ve güç örneði.
+    1.3. Basic Ohmmeter Use
+        LT_103.asc: Temel Ommetre kullaným kurallarý örneði.
+    1.4. Lock-out / Tag-out
+        LT_104.asc: Devreyi-aç etiketi-tak müdahale kurallarý örneði.
+    1.5. Wire Types and Sizes
+        LT_105.asc: Tel tipleri ve ebatlarý örneði.
+    1.6. Static Electricity
+        LT_106.asc: Statik elektrik ve elektriksel þarj örneði.
+    1.7. Physical Effects of Electricity
+        LT_107.asc: Elektriðin fiziksel etkisi örneði.
+    1.8. Performance-Based Assessments for Basic Electricity Competencies
+        LT_108.asc: Uygulamalý performans temelli deðerleme örneði.
+    1.9. Parallel DC Circuits
+        LT_109.asc: Paralel dirençli DC devreleri örneði.
+    1.10. Arc Flash and Arc Blast
+        LT_110.asc: Elektrik arký, ark çakýþý ve ark patlamasý örneði.
+    1.11. Basic Electromagnetic Relays
+        LT_111.asc: Temel elektromanyetik röle baðlak'ý örneði.
+    1.12. Electrical Connections
+        LT_112.asc: Elektrik baðlantý çeþitleri örneði.
+    1.13. Simple Circuits
+        LT_113.asc: Basit elektrik devre çeþitleri örneði.
+    1.14. Sources of Electricity
+        LT_114.asc: Elektrik kaynaðýnýn temini örneði.
+    1.15. Resistance, Reactance, and Impedance
+    1.16. Voltage, Current, and Resistance
+        LT_116.asc: Gerilim, akým ve direnç örneði.
+    1.17. Magnetism
+    1.18. Ohm's Law
+        LT_118.asc: Ohm kanunu ve devredeki akýmý sýnýrlayýcý direnç örneði.
+    1.19. Electric Shock
+        LT_119.asc: Kazara ceryana kapýlarak elektrik çarpmalarý örneði.
+    1.20. Design Project: Telegraph System
+    1.21. Basic Electromagnetism and Electromagnetic Induction
+        LT_121.asc: Temel elektromanyetizim ve elektromanyetik endüklenme örneði.
+    1.22. Atomic Structure
+        LT_122.asc: Atomik yapý, proton nötron elektron ve molekül örneði.
+    1.23. Conductors and Insulators
+        LT_123.asc: Ýletken ve yalýtkan malzemeler örneði.
+    1.24. Series DC Circuits
+        LT_124.asc: Seri DC devreleri örneði.
+    1.25. Elementary Circuits
+    1.26. Basic Ammeter Use
+        LT_126.asc: Temel ampermetre kullanýmý örneði.
+    1.27. Basic Troubleshooting Strategies
+    1.28. Safety Grounding
+    1.29. Basic Electricity Worksheet
+    1.30. Specific Resistance of Conductors
+        LT_130.asc: Materyallerin özgül direnci örneði.
+    1.31. Temperature Coefficient of Resistance
+        LT_131.asc: Direncin sýcaklýk katsayýsý örneði.
+    1.32. Ohm's Law Worksheet
+    1.33. Batteries
+        LT_133.asc: Bataryalar ve ampersaat deþarj kapasiteleri örneði.
+    1.34. Overcurrent Protection
+        LT_134.asc: Devrelerde aþýrýakým riskleri ve korunma örneði.
+    1.35. Basic Circuit Troubleshooting
+    1.36. Switches
+    1.37. Basic Voltmeter Use
+    1.38. Resistors
+        LT_138.asc: Dirençler ve elektrik devresindeki iþlevleri örneði.
+
+2. DC Electric Circuits (18 örnek)
+----------------------------------------------
+    2.01. DC Motor Theory
+        LT_201.asc: DC doðru akým motor teorisi örneði.
+    2.02. DC Generator Theory
+        LT_202.asc: DC doðru akým jeneratör teorisi örneði.
+    2.03. Series-Parallel DC Circuits
+        LT_203.asc: Seri ve paralel DC devreleri örneði.
+    2.04. DC Metrology
+    2.05. Time Constant Calculations
+        LT_205.asc: DC-LC devrelerinde zaman sabitesi örneði.
+    2.06. Voltmeter Design
+        LT_206.asc: Kendi basit gerilimölçerinin tasarlanmasý örneði.
+    2.07. Current Divider Circuits
+        LT_207.asc: Akým bölücü devre tasarýmlarý örneði.
+    2.08. Inductors
+        LT_208.asc: DC devrede irkileç/endüktör/bobin tasarýmlarý örneði.
+    2.09. Intermediate Electromagnetism and Electromagnetic Induction
+        LT_209.asc: DC devrede elektromanyetik irkilme örneði.
+    2.10. Kirchhoff's Laws
+        LT_210.asc: Devre gerilimleri toplamýný sýfýrlayan Kirçhof Kanunu örneði.
+    2.11. Voltage Divider Circuits
+        LT_211.asc: Seri dirençli gerilim bölücü devre örneði.
+    2.12. Capacitors
+        LT_212.asc: Kapasitör/sýðaç devreleri örneði.
+    2.13. Potentiometers
+        LT_213.asc: Deðiþken dirençli potansiyometreler/pot örneði.
+    2.14. DC Transducers
+    2.15. Magnetic Units of Measurement
+        LT_215.asc: Manyetik ölçüm birimleri örneði.
+    2.16. Performance-Based Assessments for DC Circuit Competencies
+    2.17. Design Project: DC Motor
+    2.18. Inductance
+        LT_218.asc: Endüktif irkilme örneði.
+    2.19. Time Constant Circuits
+    2.20. DC Motor Control Circuits
+    2.21. Capacitance
+        LT_221.asc: Kapasitif sýðaçlama örneði.
+    2.22. DC Bridge Circuits
+        LT_222.asc: DC dirençli köprü devreleri örneði.
+    2.23. Time Constant Circuits
+        LT_223.asc: RLC zaman sabiti devreleri örneði.
+    2.24. Ammeter Design
+        LT_224.asc: Ampermetre akýmölçer tasarým örneði.
+    2.25. Design Project: Voltmeter
+
+3. AC Electric Circuits (31 örnek)
+----------------------------------------------
+    3.01. Design Project: Sensitive Audio Detector
+        LT_301.asc: Hassas ses tespitçisi tasarýmý örneði.
+    3.02. AC phase
+        LT_302.asc: AC/AlternatingCurrent/AlternatifAkým fazlý gerilim kaynaðý örneði.
+    3.03. AC Motor Control Circuits
+    3.04. Step-up, Step-down, and Isolation Transformers
+        LT_304.asc: Yükselten, düþüren ve yalýtan dönüþtüreçler örneði.
+    3.05. AC Waveforms
+        LT_305.asc: AC dalga biçimleri örneði.
+    3.06. Series and Parallel AC Circuits
+        LT_306.asc: Seri ve paralel AC devreleri ve ölçümleri örneði.
+    3.07. AC Metrology
+        LT_307.asc: AC gerilim ve akýmlarýnýn ölçülmesi örneði.
+    3.08. Fundamentals of Radio Communication
+        LT_308.asc: Radyo iletiþiminin temelleri örneði.
+    3.09. AC Motor Theory
+        LT_309.asc: AC alternatör motor teorisi örneði.
+    3.10. Series-Parallel Combination AC Circuits
+        LT_310.asc: Seri ve paralel karma baðlantýlý AC devreler örneði.
+    3.11. Performance-Based Assessments for AC Circuit Competencies
+    3.12. Decibel Measurements
+        LT_312.asc: Pasif AC devrelerde kazancýn desibel ölçümü örneði.
+    3.13. Basic Oscilloscope Operation
+        LT_313.asc: Temel osiloskop/salýnýmölçer iþlemleri örneði.
+    3.14 Electrical Noise and Interference
+        LT_314.asc: Elektriksel gürültü ve parazitsel müdahelesi örneði.
+    3.15. Advanced Electromagnetism and Electromagnetic Induction
+        LT_315.asc: Elektromanyetizm ve elektromanyetik endüklenme örneði.
+    3.16 Characteristic Impedance
+        LT_316.asc: Eþeksenli kablolardaki karakteristik çeli/empedans örneði.
+    3.17. Inductive Reactance
+        LT_317.asc: Frekansla artan endüktif reaktans/irkilen tepkileç örneði.
+    3.18. Impedance Matching With Transformers
+        LT_318.asc: Trafolarýn primer/segonder empedans/çeli uyumu örneði.
+    3.19. Mixed-Frequency Signals
+        LT_319.asc: Karýþýk frekans sinyalli devreler örneði.
+    3.20. Resonance
+        LT_320.asc: LC devrelerde enaz çelili çýnlaným frekansý örneði.
+    3.21. Voltage Divider Circuits
+        LT_321.asc: Gerilim bölücü devreler örneði.
+    3.22. AC Generator Theory
+        LT_322.asc: AC üreten jenaratör devresi örneði.
+    3.23. Peak, Average, and RMS Measurements
+        LT_323.asc: AC için tepe, ortalama ve RMS/RootMeanSquare deðerler örneði.
+    3.24. Autotransformers
+        LT_324.asc: Deðiþken çýktý gerilimli ototrafolar örneði.
+    3.25. Design Project: Audio Tone Control
+    3.26. Oscilloscope Trigger Controls
+        LT_326.asc: Osiloskop tetikleme kontrollarý örneði.
+    3.27. Polyphase Power Systems
+        LT_327.asc: Çokfazlý elektrik güç sistemleri örneði.
+    3.28. AC Power
+        LT_328.asc: AC Alternatif Akým güç hesaplamalarý örneði.
+    3.29. Impedance
+        LT_329.asc: Direnç, irkileç ve sýðaç karmasý çeli/empedans örneði.
+    3.30. Delta and Wye 3-Phase Circuits
+        LT_330.asc: Üç fazlý AC Delta ve Y devreleri örneði.
+    3.31. Capacitive Reactance
+        LT_331.asc: Frekansla azalan kapasitif reaktans/yoðuþan tepkileç örneði.
+    3.32. Four-Channel Audio Mixer
+    3.33. Passive Filter Circuits
+        LT_333.asc: Sýðaç ve irkileçli pasif filitre devreleri örneði.
+    3.34. Passive Integrator and Differentiator Circuits
+        LT_334.asc: Sýðaç ve irkileçli pasif tümleyici ve türevleyici devreler örneði.
+    3.35. Mutual Inductance
+        LT_335.asc: Çoklu irkileçli dönüþtüreçlerde karþýlýklý endüklenme örneði.
+    3.36. Microphones
+
+4. Network Analysis Techniques (8 örnek)
+------------------------------------------------------------
+    4.01. DC Mesh Current Analysis
+        LT_401.asc: Dolanan DC mesh/göz döngülü akým analizi örneði.
+    4.02. Superposition Theorem
+        LT_402.asc: Süperpozisyon/üstüsteleme teoremi ile devre analizi örneði.
+    4.03. Thevenin's, Norton's, and Maximum Power Transfer Theorems
+        LT_403.asc: Thevenin gerilim kaynaðý, Norton akým kaynaðý ve azami güç aktarým kuramý örneði.
+    4.04. Performance-Based Assessments for Network Analysis Competencies
+    4.05. Millman's Theorem
+        LT_405.asc: Millman teorisiyle Thevenin-Norton çevrimleri örneði.
+    4.06. AC Network Analysis
+        LT_406.asc: Kompleks sayýlarla AC devre analizi örneði.
+    4.07. DC Branch Current Analysis
+        LT_407.asc: Dallanan DC branch/branþ akým analizi örneði.
+    4.08. Simultaneous Equations for Circuit Analysis
+        LT_408.asc: Devre analizi için eþanlý denklemlerin kurulmasý örneði.
+    4.09. Component Modeling
+        LT_409.asc: Devre elemanlarýný eþdeðerleriyle modelleme örneði.
+
+5. Discrete Semiconductor Devices and Circuits
+----------------------------------------------------------------------
+    5.01. JFET Amplifiers
+        LT_501.asc: JFET/JunctionFieldEffectTransistor/KavþakAlanEtkiliTransisör yükselteçleri örneði.
+    5.02. Rectifier Circuits
+        LT_502.asc: Çiftüþek, irkileç ve transistör kontrollu AC/DC doðrultaç/rektifiye devreleri örneði.
+    5.03. Basic AC-DC Power Supplies
+        LT_503.asc: Temel AC/DC dönüþtüreçli ve doðrultaçlý güç kaynaklarý örneði.
+    5.04. Miscellaneous Diode Applications
+        LT_504.asc: Çeþitli çiftüþek uygulamalarý örneði.
+    5.05. Design Project: DC Voltage Regulator
+    5.06. Design Project: Simple Component Curve-Tracer Circuit
+    5.07. Oscillator Circuits
+        LT_507a.asc: Çeþitli salýným üreteç devreleri-1 örneði.
+        LT_507b.asc: Çeþitli salýným üreteç devreleri-2 örneði.
+        LT_507c.asc: Çeþitli salýným üreteç devreleri-3 örneði.
+    5.08. BJT Amplifier Troubleshooting
+        LT_508.asc: BJT/BipolarJunctionTransistor/ÇiftkutupluKavþakYükselteçi hataayýklamalarý örneði.
+    5.09. Bipolar Transistor Biasing Circuits
+        LT_509.asc: BJT/BipolarJunctionTransistor/ÇiftkutupluKavþakYükselteçi tetikleme devreleri örneði.
+    5.10. Regulated Power Sources
+        LT_510.asc: Düzeltilmiþ güç kaynaklarý devresi örneði.
+    5.11. Special Diodes
+        LT_511.asc: Özel çiftüþekler örneði.
+    5.12. Design Project: AC-DC Power Supply
+        LT_512.asc: AC-DC dönüþtüreçli düzelteç güç kaynaðý tasarýmý örneði.
+    5.13. Signal Modulation
+        LT_513a.asc: Elektronik sinyal AM-FM modülasyonu/biçimlemesi örneði.
+        LT_513b.asc: Elektronik sinyal PWM modülasyonu/biçimlemesi örneði.
+    5.14. Junction field-effect transistors (JFET)
+        LT_514.asc: JFET/JunctionFieldEffectTransistor/KavþakAlanEtkiliYükselteç örneði.
+    5.15. PN Junctions
+        LT_515.asc: PN çiftüþek arakavþaðý karakteristikleri örneði.
+    5.16. Rectifying Diodes
+        LT_516.asc: Rectifier doðrultaç çiftüþekleri örneði.
+    5.17. Zener Diodes
+        LT_517.asc: Zener iyileþen tersdalgagerilimli çiftüþekler örneði.
+    5.18. Optoelectronic Devices
+        LT_518.asc: Optoelektronik araçlar örneði.
+    5.19. Bipolar Junction Transistor (BJT) theory
+        LT_519.asc: BJT/BipolarJunctionTransistor/ÇiftKavþakYükselteç devreleri örneði.
+    5.20. Clipper and Clamper Circuits
+        LT_520.asc: Devrelerin seri/paralel thevenin/norton karþýlýklarý örneði.
+    5.21. Bipolar Junction Transistors in Active Mode
+        LT_521.asc: Aktif kipte BJT transistörler örneði.
+    5.22. Electron Versus Conventional Flow
+        LT_522.asc: Geleneksel ve elektron akým bakýþlarý örneði.
+    5.23. Insulated Gate Field-Effect Transistors
+        LT_523.asc: IGFET/InsulatedGateFieldEffectTransistor yalýtkan kapýlý alan etkili yükselteçler örneði.
+    5.24. Thyristors
+        LT_524.asc: Thyrstor/Tristör örneði.
+    5.25. Conventional Transistor Overview and Special Transistors
+        LT_525a.asc: Geleneksel transistör çeþitleri ve özel transistörler örneði.
+        LT_525b.asc: Geleneksel transistör çeþitleri ve özel transistörler örneði.
+    5.26. Elementary Amplifier Theory
+        LT_526.asc: Baþlangýç yükselteç teorisi örneði.
+    5.27. Differential Transistor Amplifiers
+        LT_527.asc: Ortak yayýcýlý çift fark yükselteçlerinde kazanç modelleri örneði.
+    5.28. Active Loads in Amplifier Circuits
+        LT_528.asc: Aktif yük bindirimlerinde yükselteçlerin durumu örneði.
+    5.29. IGFET Amplifiers
+    5.30. Class C BJT Amplifiers
+    5.31. Design Project: Audio Power Amplifier
+    5.32. Power Conversion Circuits
+        LT_532a.asc: Çeþitli AC-DC/DC-DC güç çevrim devreleri-1 örneði.
+        LT_532b.asc: Çeþitli AC-DC/DC-DC güç çevrim devreleri-2 örneði.
+        LT_532c.asc: Çeþitli AC-DC/DC-DC güç çevrim devreleri-3 örneði.
+        LT_532d.asc: Çeþitli AC-DC/DC-DC güç çevrim devreleri-4 örneði.
+    5.33. Design Project: Dual-output AC-DC Power Supply
+        LT_533.asc: Çift çýkýþlý AC-DC dönüþtüreçli güç kaynaðý örneði.
+    5.34. Electrical Conduction in Semiconductors
+        LT_534.asc: Yarýiletken materyallerdeki elektrik geçirgenliði örneði.
+    5.35. Multi-Stage Transistor Amplifiers
+        LT_535.asc: Çok safhalý transistörlü yükselteç devreleri örneði.
+    5.36. Class A BJT Amplifiers
+        LT_536a.asc: A-sýnýfý tam-dalga geçiren BJT transistörler devresi-1 örneði.
+        LT_536b.asc: A-sýnýfý tam-dalga geçiren BJT transistörler devresi-2 örneði.
+        LT_536c.asc: A-sýnýfý tam-dalga geçiren BJT transistörler devresi-3 örneði.
+    5.37. Thyristor Application Circuits
+        LT_537a.asc: Tristör uygulama devreleri-1 örneði.
+        LT_537b.asc: Tristör uygulama devreleri-2 örneði.
+    5.38. Performance-Based Assessments for Semiconductor Circuit Competencies
+        LT_538a.asc: Yarýiletken devre kurma ustalýðýnda performans-temelli deðerleme-1 örneði.
+        LT_538b.asc: Yarýiletken devre kurma ustalýðýnda performans-temelli deðerleme-2 örneði.
+        LT_538c.asc: Yarýiletken devre kurma ustalýðýnda performans-temelli deðerleme-3 örneði.
+        LT_538d.asc: Yarýiletken devre kurma ustalýðýnda performans-temelli deðerleme-4 örneði.
+        LT_538e.asc: Yarýiletken devre kurma ustalýðýnda performans-temelli deðerleme-5 örneði.
+        LT_538f.asc: Yarýiletken devre kurma ustalýðýnda performans-temelli deðerleme-6 örneði.
+        LT_538g.asc: Yarýiletken devre kurma ustalýðýnda performans-temelli deðerleme-7 örneði.
+    5.39. Class B BJT Amplifiers
+        LT_539.asc: Sýnýf-B transistörle %50 altý sinyal geçirgenliði örneði.
+    5.40. Insulated Gate Bipolar Transistors
+        LT_540.asc: IGBT/InsulatedGate-BJT ile MOSFET+BJT devresi örneði.
+    5.41. Design Project: Radio Transmitter
+    5.42. Bipolar Junction Transistors as Switches
+        LT_542a.asc: Yükselteç deðil düðme olarak kullanýlan BJT-1 örneði.
+        LT_542b.asc: Yükselteç deðil düðme olarak kullanýlan BJT-2 örneði.
+        LT_542c.asc: Yükselteç deðil düðme olarak kullanýlan BJT-3 örneði.
+
+6. Analog Integrated Circuits
+--------------------------------------------
+    6.01. Design Project: Pulse-Width Modulation (PWM) Signal Generator
+        LT_601.asc: PWM/PulseWidthModulation/DarbeGeniþlikKipleme sinyal üreteç devre örneði.
+    6.02. Summer and Subtractor OpAmp Circuits
+        LT_602a.asc: Toplayan yada çýkaran ÝþYük devreleri-1 örneði.
+        LT_602b.asc: Toplayan yada çýkaran ÝþYük devreleri-2 örneði.
+    6.03. Logarithms for Analog Circuits
+        LT_603.asc: Analog örneksel devre logaritmasý örneði.
+    6.04. Phase-Locked Loops
+        LT_604.asc: Ayný frekanslý faz kilitli döngü devreleri örneði.
+    6.05. AC Negative Feedback OpAmp Circuits
+        LT_605.asc: AC negatif geribesleme ÝþYük devreleri örneði.
+    6.06. Positive Feedback OpAmp Circuits
+        LT_606.asc: AC pozitif geribesleme ÝþYük devreleri örneði.
+    6.07. Servo Motor Systems
+        LT_607.asc: Servo/güdümlü motor devreleri örneði.
+    6.08. Performance-Based Assessments for Analog Integrated Circuit Competencies
+        LT_608a.asc: Örneksel entegre ÝþYük devre kompetanlýðýný deðerleme-1 örneði.
+        LT_608b.asc: Örneksel entegre ÝþYük devre ustalýðýý deðerleme-2 örneði.
+        LT_608c.asc: Örneksel entegre ÝþYük devre ustalýðýý deðerleme-3 örneði.
+        LT_608d.asc: Örneksel entegre ÝþYük devre ustalýðýý deðerleme-4 örneði.
+        LT_608e.asc: Örneksel entegre ÝþYük devre ustalýðýý deðerleme-5 örneði.
+        LT_608f.asc: Örneksel entegre ÝþYük devre ustalýðýý deðerleme-6 örneði.
+    6.09. Design Project: LED Stroboscope
+    6.10. Precise Diode Circuits
+        LT_610.asc: Hassas çiftüþek devreleri örneði.
+    6.11. Design Project: Sensitive Microphone Amplifier
+        LT_611.asc: Yakýn mesafe enterkom haberleþme devre tasarýmý örneði.
+    6.12. Design Project: Intercom System
+        LT_612.asc: Ýki safhalý ÝþYük'le duyarlý mikrofon tasarýmý örneði.
+    6.13. Active Filters
+        LT_613a.asc: Aktif ÝþYük'lü filitre devre tasarýmlarý-1 örneði.
+        LT_613b.asc: Aktif ÝþYük'lü filitre devre tasarýmlarý-2 örneði.
+        LT_613c.asc: Aktif ÝþYük'lü filitre devre tasarýmlarý-3 örneði.
+    6.14. Design Project: Signal Generator
+        LT_614.asc: Genlik ve frekans ayarlý sinüs kare üçgen testerediþ dalga üreteç devresi örneði.
+    6.15. OpAmp Oscillator Circuits
+        LT_615.asc: Çeþitli dalga salýným üreten ÝþYük devreleri örneði.
+    6.16. Nonlinear OpAmp Circuits
+        LT_616.asc: Doðrusal olmayan ÝþYük devreleri örneði.
+    6.17. Printed Circuit Board Layout and Manufacture
+    6.18. IC Fabrication and Packaging
+    6.19. Linear Computational Circuitry
+        LT_619a.asc: Doðrusal matematik hesap devreleri-1 örneði.
+        LT_619b.asc: Doðrusal matematik hesap devreleri-2 örneði.
+    6.20. Basic Operational Amplifiers
+        LT_620.asc: Temel Ýþ-Yük Ýþlemsel-Yükselteç devreleri ve iþlevleri örneði.
+    6.21. Voltage/Current Converter OpAmp Circuits
+        LT_621.asc: Gerilim-akým çevirici ÝþYük devreleri örneði.
+    6.22. Inverting and Noninverting OpAmp Voltage Amplifier Circuits
+        LT_622.asc: Tersleyen ve terslemeyen Ýþ-Yük gerilim yükselteç devreleri örneði.
+    6.23. Negative Feedback OpAmp Circuits
+        LT_623.asc: Negatif geribeslemeli Ýþ-Yük devreleri örneði.
+    6.24. Design Project: Audio Media-Based Signal Generator
+    6.25. Open-Loop OpAmp Circuits
+        LT_625.asc: Geribeslemesiz açýk-döngülü ÝþYük devreleri örneði.
+
+7. Digital Circuits
+------------------------------
+    7.01. Digital Communication
+        LT_701.asc: Dijital/ikili iletiþim kavramlarý ve basit bir öykünme devresi örneði.
+    7.02. Timer Circuits
+        LT_702.asc: Zamanlý, frekanslý, görev döngülü sinyal üreten devreler örneði.
+    7.03. High-Reliability Circuits
+        LT_703.asc: Yüksek güvenilir kalitedeiki devreler örneði.
+    7.04. Digital Codes
+        LT_704.asc: Bilgisayar devrelerindeki ikili sayýsal kodlamalar örneði.
+    7.05. Analog-to-Digital Conversion
+        LT_705a.asc: ADC/AnalogtoDigitalConversion örnekselden sayýsala dönüþtüren devreler-1 örneði.
+        LT_705b.asc: Örnekselden sayýsala dönüþtüren devreler-2 örneði.
+    7.06. Microprocessor Programming
+    7.07. Multiplexers and Demultiplexers
+        LT_707.asc: Multiplexer/Çoklayýcý ve demultiplexer/çözücü entegreleri örneði.
+    7.08. Digital Logic Signals
+        LT_708.asc: Sayýsal mantýk durumlarý ve devreleþtirme örneði.
+    7.09. Stepper Motors
+        LT_709.asc: Sayýsal entegre kontrollu adým motor devresi örneði.
+    7.10. Digital Display Circuits
+        LT_710.asc: Sayýsal görüntü entegre devreleri örneði.
+    7.11. Sum-of-Products and Product-of-Sums Expressions
+        LT_711.asc: Ürünlerin toplamý ve toplamlarýn ürünü ifadeleri örneði.
+    7.12. Counters
+        LT_712a.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-1 örneði.
+        LT_712b.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-2 örneði.
+        LT_712c.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-3 örneði.
+        LT_712d.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-4 örneði.
+        LT_712e.asc: Sayýsal devrelerde frekans uyumlu sayaç tasarýmlarý-5 örneði.
+        LT_712x.asc: Geciktirmeli 3-NOT ve AND kapýlý saat devresi örneði.
+        LT_712x.asy: Geciktirmeli 3-NOT ve AND kapýlý saat devresi sembolü.
+        LT_712y.asc: 2-AND,  SR kapý ve saatla JK-FF devresi örneði.
+        LT_712y.asy: 2-AND,  SR kapý ve saatla JK-FF devresi sembolü.
+        LT_712z.asc: PRE-CLR, 2-AND,  SR kapý ve saatla JK-FF devresi örneði.
+        LT_712z.asy: PRE-CLR, 2-AND,  SR kapý ve saatla JK-FF devresi sembolü.
+    7.13. Design Project: Arbitrary Waveform Generator
+    7.14. Sources of Electricity
+        LT_714.asc: Çeþitli elektrik üreten kaynaklar örneði.
+    7.15. Programmable Logic Technology
+        LT_715.asc: Programlanabilir mantýksal devre teknolojisi örneði.
+    7.16. Microcontroller Principles
+        LT_716.asc: MCU/MicroControllerUnit mikrokontrolcülerin prensipleri örneði.
+    7.17. Latch Circuits
+        LT_717a.asc: Latch/mandallanýp önceki sinyali sürdüren devreler-1 örneði.
+        LT_717b.asc: Latch/mandallanýp önceki sinyali sürdüren devreler-2 örneði.
+    7.18. Digital-to-Analog Conversion
+        LT_718.asc: DAC/Digital-to-AnalogConversion sayýsaldan örneksele çevrim devreleri örneði.
+    7.19. Design Project: Stepper Motor Driver
+    7.20. Boolean Algebra
+        LT_720.asc: Ýkili sayý sisteminin cebiri, mantýk devreleri, merdiven diyagramý, gerçeklik tablosu örneði.
+    7.21. Design Project: Event Counter
+    7.22. Electromechanical Relay Logic
+        LT_722.asc: Elektromekanik röle devreleri ve mantýk kapý kontrolleri örneði.
+    7.23. Karnaugh Mapping
+        LT_723.asc: Karnaugh haritalamayla Boolean ifadelerin sadeleþtirilmesi örneði.
+    7.24. Design Project: Power Inverter
+    7.25. Numeration Systems
+        LT_725.asc: On, iki, sekiz ve onaltý tabanlý sayý sistemleri örneði.
+    7.26. CMOS Logic Gates
+        LT_726a.asc: CMOS-MOSFET mantýksal kapý devreleri-1 örneði.
+        LT_726b.asc: CMOS-MOSFET mantýksal kapý devreleri-2 örneði.
+    7.27. TTL Logic Gates
+        LT_727.asc: TTL-BJT mantýksal kapý devreleri örneði.
+    7.28. Memory Devices
+        LT_728.asc: Veri depolayan hafýza aygýtlarý örneði.
+    7.29. Basic Logic Gate Troubleshooting
+        LT_729.asc: Temel mantýk kapýlarý hata arýndýrma teknikleri örneði.
+    7.30. Protective Relay Circuits
+    7.31. Flip-Flop Circuits
+        LT_731a.asc: Ýki-durumlu flip-flop devreleri-1 örneði.
+        LT_731b.asc: Ýki-durumlu flip-flop devreleri-2 örneði.
+        LT_731c.asc: Ýki-durumlu flip-flop devreleri-3 örneði.
+    7.32. Light-Pulse Switch
+    7.33. Shift Registers
+        LT_733a.asc: FlipFlop/ÝkiDurumlu'larla kaydýran kayýtçýlar devresi-1 örneði.
+        LT_733b.asc: FlipFlop/ÝkiDurumlu'larla kaydýran kayýtçýlar devresi-2 örneði.
+    7.34. Binary Math Circuits
+        LT_734.asc: Ýkili matematik taþmalý toplamlarýn devreleri örneði.
+    7.35. Programmable Logic Controllers
+    7.36. Time-Delay Electromechanical Relays
+        LT_736.asc: Zaman geciktirmeli elektromekanik röle devreleri örneði.
+    7.37. Performance-Based Assessments for Digital Circuit Competencies
+        LT_737a.asc: Performans temelli devre tasarýmlarý deðerlemesi-1 örneði.
+        LT_737b.asc: Performans temelli devre tasarýmlarý deðerlemesi-2 örneði.
+        LT_737c.asc: Performans temelli devre tasarýmlarý deðerlemesi-3 örneði.
+        LT_737d.asc: Performans temelli devre tasarýmlarý deðerlemesi-4 örneði.
+    7.38. Basic Logic Gates
+        LT_738.asc: Temel mantýk kapýlarý örneði.
+    7.39. Design Project: Logic Probe
+        LT_739.asc: Mantýksal sondalý devre tasarýmý örneði.
+    7.40. Switched Capacitor Circuitry
+        LT_740a.asc: Aç-kapa düðmeli sýðaç devresi-1 örneði.
+        LT_740b.asc: Aç-kapa düðmeli sýðaç devresi-2 örneði.
+    7.41. Encoders and Decoders
+        LT_741a.asc: Kodlama ve kod çözme devreleri-1 örneði.
+        LT_741b.asc: Kodlama ve kod çözme devreleri-2 örneði.
+    7.42. Binary Math
+        LT_742.asc: Sayýsal devrelerde kullanýlan ikili matematiði örneði.
+
+8. Mathematics for Electronics
+----------------------------------------------
+    8.01. Calculus for Electric Circuits
+        LT_801.asc: Elektrik devrelerinde türev-integral hesap analizleri örneði.
+    8.02. Logarithms for Analog Circuits
+        LT_802.asc: Sayýsal devreler için üssel logaritmik hesaplar örneði.
+    8.03. Algebraic Equation Manipulation for Electric Circuits
+        LT_803.asc: Elektrik devrelerindeki cebirsel denklemlerin çözümü örneði.
+    8.04. Algebraic Substitution for Electric Circuits
+        LT_804.asc: Elektrik devreleri denklemlerinde cebirsel ornatým örneði.
+    8.05. Trigonometry for AC Circuits
+        LT_805.asc: AC devrelerde açýsal trigonometrik denklemler örneði.
+    8.06. Phasor Mathematics
+    8.07. Basic Algebra and Graphing for Electric Circuits
+    8.08. Scientific Notation and Metric Prefixes
+    8.09. Simultaneous Equations for Circuit Analysis
