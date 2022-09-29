@@ -76,23 +76,38 @@ Chapter 7 More about Small-Signal Amplifiers
     7-5 Frequency Response
         CAS07e.asc: Küçük sinyalli elektronik transistörlü devrelerin daha fazlasý-5 örneði.
     7-6 Positive Feedback
+        CAS07f.asc: Küçük sinyalli elektronik transistörlü devrelerin daha fazlasý-6 örneði.
 
 Chapter 8 Large-Signal Amplifiers
     8-1 Amplifier Class
+        CAS08a.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-1 örneði.
     8-2 Class A Power Amplifiers
+        CAS08b.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-2 örneði.
     8-3 Class B Power Amplifiers
+        CAS08c.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-3 örneði.
     8-4 Class AB Power Amplifiers
+        CAS08d.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-4 örneði.
     8-5 Class C Power Amplifiers
+        CAS08e.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-5 örneði.
     8-6 Switch-Mode Amplifiers
+        CAS08f.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-6 örneði.
 
 Chapter 9 Operational Amplifiers
     9-1 The Differential Amplifier
+        CAS09a.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-1 örneði.
     9-2 Differential Amplifier Analysis
+        CAS09b.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-2 örneði.
     9-3 Operational Amplifiers
+        CAS09c.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-3 örneði.
     9-4 Setting Op-Amp Gain
+        CAS09d.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-4 örneði.
     9-5 Frequency Effects in Op Amps
+        CAS09e.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-5 örneði.
     9-6 Op-Amp Applications
+        CAS09f1.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-6a örneði.
+        CAS09f2.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-6b örneði.
     9-7 Comparators
+        CAS09g.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-7 örneði.
 
 Chapter 10 Troubleshooting
     10-1 Preliminary Checks
@@ -100,16 +115,22 @@ Chapter 10 Troubleshooting
     10-3 Reduced Output
     10-4 Distortion and Noise
     10-5 Intermittents
+        CAS10a.asc: Entegre ve tikel elektronik devrelerde arýza giderme-1 örneði.
     10-6 Operational Amplifiers
     10-7 Automated Testing
     10-8 Thermal Issues
+        CAS10b.asc: Entegre ve tikel elektronik devrelerde arýza giderme-2 örneði.
 
 Chapter 11 Oscillators
     11-1 Oscillator Characteristics
     11-2 RC Circuits
+        CAS11b.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-1 örneði.
     11-3 LC Circuits
+        CAS11c.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-2 örneði.
     11-4 Crystal Circuits
+        CAS11d.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-3 örneði.
     11-5 Relaxation Oscillators
+        CAS11e.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-4 örneði.
     11-6 Undesired Oscillations
     11-7 Oscillator Troubleshooting
     11-8 Direct Digital Synthesis
