@@ -1,0 +1,211 @@
+CA.Schuler: Electronics Principles and Applications (Toplam ?? örnek)
+Not: Örneklerdeki bazý ardýþýk 1-2-3 tek örnekte önceki 3 altbaþlýklarýn içerildiðini,
+     yada 4a, 4b, 4c ise 4.altbaþlýðýn 3 ayrý örnekte de ardýþýk iþlendiðini belirtir.
+----------------------------------------------------------------------------------------------------
+
+Bölüm-1 Giriþ
+    1-1 Kýsa tarihçe
+    1-2 Örneksel ve sayýsal
+    1-3 Örneksel fonksiyonlar
+    1-4 DC ve AC devreler
+        CAS01.asc: Elektroniðe giriþ devreleri-4 örneði.
+    1-5 Elektronikte yönelimler
+
+Bölüm-2 Yarýiletkenler
+    2-1 Ýletkenler ve yalýtkanlar
+    2-2 Yarýiletkenler
+    2-3 N-tip yarýiletkenler
+    2-4 P-tip yariiletkenler
+    2-5 Çoðunluk ve azýnlýk taþýyýcýlar
+    2-6 Diðrt malzemeler
+    2-7 Bant boþluklarý
+
+Bölüm-3 Çiftüþekle
+    3-1 PN kavþak
+    3-2 Çiftüþeklerin karakteristik eðrileri
+    3-3 Çiftüþek ayak kimliði
+    3-4 Çiftüþek tip ve uygulamalarý
+    3-5 Iþýngerilim enerji kaynaklarý
+        CAS03.asc: Çiftüþek diyotlar ve uygulamalarý-1-2-3-4-5 örneði.
+
+Bölüm-4 Güç Besleyiciler
+    4-1 Güç-besleyen sistem
+    4-2 Doðrultma
+    4-3 Tam-dalga doðrultma
+    4-4 RMS deðerleri ortalamaya çevirme
+    4-5 Süzgeçler
+        CAS04a.asc: Güç kaynaklý doðrultmaç ve zener diyotlu düzelteç devreleri-2-4-5 örneði.
+    4-6 Gerilim çoklayýcýlar
+    4-7 Kýpýrtý ve düzenlenlemesi
+    4-8 Zener düzenleyiciler
+    4-9 Arýzagiderme
+        CAS04b.asc: Güç kaynaklý doðrultmaç ve zener diyotlu düzelteç devreleri-6-7-8-9 örneði.
+    4-10 Parçalarýn deðiþtirilmesi
+
+Bölüm-5 Transistörler
+    5-1 Yükseltim
+    5-2 Transistörler
+    5-3 Karakteristik eðriler
+    5-4 Transistör verileri
+    5-5 Transistör testi
+    5-6 Diðer transistör tipleri
+        CAS05a.asc: Transistörler, çeþitleri, yükseltme ve düðmeleme, elektronik ve güç devreleri-1-2-3-5-6a örneði.
+    5-7 Güç transistörleri
+        CAS05b.asc: Transistörler, çeþitleri, yükseltme ve düðmeleme, elektronik ve güç devreleri-6b-7 örneði.
+    5-8 Düðme olarak transistörler
+        CAS05c.asc: Transistörler, çeþitleri, yükseltme ve düðmeleme, elektronik ve güç devreleri-8a örneði.
+        CAS05d.asc: Transistörler, çeþitleri, yükseltme ve düðmeleme, elektronik ve güç devreleri-8b örneði.
+
+Bölüm-6 Küçük-Sinyal Yükselteçlere Giriþ
+    6-1 Kazanç ölçümü
+    6-2 Ortak-yayýcý yükselteç
+    6-3 Yükselteçi istikrarlaþtýrma
+        CAS06a.asc: Küçük sinyalli elektronik transistörlerde kazanç ve devreler-1-2-3 örneði.
+    6-4 Diðer düzenleniþler
+        CAS06b.asc: Küçük sinyalli elektronik transistörlerde kazanç ve devreler-4a örneði.
+    6-5 Benzeþim ve modeller
+        CAS06c.asc: Küçük sinyalli elektronik transistörlerde kazanç ve devreler-4b-5 örneði.
+
+Bölüm-7 Küçük-Sinyal Yükselteçlerde Daha Fazlasý
+    7-1 Yükselteç birleþimi
+        CAS07a.asc: Küçük sinyalli elektronik transistörlü devrelerin daha fazlasý-1 örneði.
+    7-2 Birleþik safhalardaki gerilim kazancý
+        CAS07b.asc: Küçük sinyalli elektronik transistörlü devrelerin daha fazlasý-2 örneði.
+    7-3 Alan-etkili transistör yükselteçler
+        CAS07c.asc: Küçük sinyalli elektronik transistörlü devrelerin daha fazlasý-3 örneði.
+    7-4 Negatif geribesleme
+        CAS07d.asc: Küçük sinyalli elektronik transistörlü devrelerin daha fazlasý-4 örneði.
+    7-5 Sýklýk yanýtý
+        CAS07e.asc: Küçük sinyalli elektronik transistörlü devrelerin daha fazlasý-5 örneði.
+    7-6 Positif geribesleme
+        CAS07f.asc: Küçük sinyalli elektronik transistörlü devrelerin daha fazlasý-6 örneði.
+
+Bölüm-8 Büyük-Sinyal Yükselteçler
+    8-1 Yükselteç sýnýfý
+        CAS08a.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-1 örneði.
+    8-2 Sýnýf-A güç yükselteçleri
+        CAS08b.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-2 örneði.
+    8-3  Sýnýf-B güç yükselteçleri
+        CAS08c.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-3 örneði.
+    8-4  Sýnýf-AB güç yükselteçleri
+        CAS08d.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-4 örneði.
+    8-5 Sýnýf-C güç yükselteçleri
+        CAS08e.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-5 örneði.
+    8-6 Düðmeleme-kipli yükselteçler
+        CAS08f.asc: Yükselteçlerde büyük sinyal, verimlilik ve sýnýflama devreleri-6 örneði.
+
+Bölüm-9 Ýþlemsel Yükselteçler
+    9-1 Fark yükselteci
+        CAS09a.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-1 örneði.
+    9-2 Fark yükselteç çözümlemesi
+        CAS09b.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-2 örneði.
+    9-3 Ýþlemsel yükselteçler
+        CAS09c.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-3 örneði.
+    9-4 ÝþYük kazanç ayarý
+        CAS09d.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-4 örneði.
+    9-5 ÝþYük'lerde sýklýk etkileri
+        CAS09e.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-5 örneði.
+    9-6 ÝþYük uygulamalarý
+        CAS09f1.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-6a örneði.
+        CAS09f2.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-6b örneði.
+    9-7 Karþýlaþtýrýcýlar
+        CAS09g.asc: Fark ve iþlemsel yükselteçler/OpAmp/ÝþYük devreleri ve uygulamalarý-7 örneði.
+
+Bölüm-10 Arýzagiderme
+    10-1 Öncül kontrollar
+    10-2 Çýktý olmamasý
+    10-3 Düþük çýktý
+    10-4 Bozulma ve gürültü
+    10-5 Kesiklikler
+        CAS10a.asc: Entegre ve tikel elektronik devrelerde arýza giderme-1-2-3-4-5 örneði.
+    10-6 ÝþYük'ler
+    10-7 Otomatik test
+    10-8 Isýnma sorunlarý
+        CAS10b.asc: Entegre ve tikel elektronik devrelerde arýza giderme-6-7-8 örneði.
+
+Bölüm-11 Salýnýmcýlar
+    11-1 Salýnýmcý karakteritikleri
+    11-2 RC devreleri
+        CAS11b.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-1 örneði.
+    11-3 LC devreleri
+        CAS11c.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-2 örneði.
+    11-4 Kristal devreleri
+        CAS11d.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-3 örneði.
+    11-5 Gevþeyen salýnýmcýlar
+        CAS11e.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-4 örneði.
+    11-6 Ýstenmeyen salýnýmlar
+        CAS11f.asc: AC sinyalsiz türetilen salýným çeþitleri ve frekanslarý-5-6-7-8-9 örneði.
+    11-7 Salýnýmcýlarda arýzagiderme
+    11-8 Doðrusal sayýsal bireþim
+    11-9 DSB'lerde arýzagiderme
+
+Bölüm-12 Ýletiþim
+    12-1 Kipleme ve kipsizleme
+        CAS12a.asc: Vericiden alýcýya modüle ve demodüle edilen telsiz antenli veri iletiþimi-1 örneði.
+    12-2 Basit alýcýlar
+    12-3 Süperheterodin alýcýlar
+    12-4 Diðer kipleme tipleri
+        CAS12b.asc: Vericiden alýcýya modüle ve demodüle edilen telsiz antenli veri iletiþimi-2-3-4 örneði.
+    12-5 Telsiz veri
+    12-6 Arýzagiderme
+        CAS12c.asc: Vericiden alýcýya modüle ve demodüle edilen telsiz antenli veri iletiþimi-5-6 örneði.
+
+Bölüm-13 Tümleþik Devreler
+    13-1 Giriþ
+    13-2 Ýmalat
+        CAS13a.asc: Ayrýk ve entegre devrelerle analog, dijital ve karma sinyaller-1-2 örneði.
+    13-3 555 zamanlayýcý
+        CAS13b1.asc: Ayrýk ve entegre devrelerle analog, dijital ve karma sinyaller-3a örneði.
+        CAS13b2.asc: Ayrýk ve entegre devrelerle analog, dijital ve karma sinyaller-3b örneði.
+        CAS13b3.asc: Ayrýk ve entegre devrelerle analog, dijital ve karma sinyaller-3c örneði.
+    13-4 Örneksel TD'ler
+    13-5 Karma-sinyalli TD'ler
+    13-6 Arýzagiderme
+        CAS13c.asc: Ayrýk ve entegre devrelerle analog, dijital ve karma sinyaller-4-5-6 örneði.
+
+Bölüm-14 Elektronik Kontrol Aygýt ve Devreleri
+    14-1 Giriþ
+        CAS14a.asc: Analog kontrol aygýtlarý ve devreleri-1 örneði.
+    14-2 Silikon-kontrollu doðrultaçlar
+        CAS14b.asc: Analog kontrol aygýtlarý ve devreleri-2 örneði.
+    14-3 Tam-dalga aygýtlar
+        CAS14c.asc: Analog kontrol aygýtlarý ve devreleri-3 örneði.
+    14-4 Kontrol devreciliðinde geribesleme
+        CAS14d.asc: Analog kontrol aygýtlarý ve devreleri-4 örneði.
+    14-5 Enerji yönetimi
+    14-6 Arýzagiderme
+        CAS14e.asc: Analog kontrol aygýtlarý ve devreleri-5-6 örneði.
+
+Bölüm-15 Düzenlenen Güç Besleyicileri
+    15-1 Açýk-döngü gerilim düzenleme
+        CAS15a.asc: Düzenli güç besleme detaylarý ve devreleri-1 örneði.
+    15-2 Kapalý-döngü gerilim düzenleme
+        CAS15b1.asc: Düzenli güç besleme detaylarý ve devreleri-2a örneði.
+        CAS15b2.asc: Düzenli güç besleme detaylarý ve devreleri-2b örneði.
+        CAS15b3.asc: Düzenli güç besleme detaylarý ve devreleri-2c örneði.
+    15-3 Akým ve gerilim sýnýrlama
+        CAS15c.asc: Düzenli güç besleme detaylarý ve devreleri-3 örneði.
+    15-4 Düðmeleme-kipli düzenleyiciler
+        CAS15d1.asc: Düzenli güç besleme detaylarý ve devreleri-4a örneði.
+        CAS15d2.asc: Düzenli güç besleme detaylarý ve devreleri-4b örneði.
+        CAS15d3.asc: Düzenli güç besleme detaylarý ve devreleri-4c örneði.
+        CAS15d4.asc: Düzenli güç besleme detaylarý ve devreleri-4d örneði.
+        CAS15d5.asc: Düzenli güç besleme detaylarý ve devreleri-4e örneði.
+        CAS15d6.asc: Düzenli güç besleme detaylarý ve devreleri-4f örneði.
+        CAS15d7.asc: Düzenli güç besleme detaylarý ve devreleri-4g örneði.
+    15-5 Arýzagiderme
+        CAS15e.asc: Düzenli güç besleme detaylarý ve devreleri-5 örneði.
+
+Bölüm-16 Sayýsal Sinyal Ýþleme
+    16-1 SSÝ Sistemlerine kuþbakýþ
+        CAS16a.asc: Sayýsal sinyal iþleme detay ve devreleri-1 örneði.
+    16-2 Hareketli-ortalama süzgeçleri
+    16-3 Fourier teorisi
+    16-4 Sayýsal süzgeç tasarýmý
+    16-5 Diðer SSÝ uygulamalarý
+    16-6 SSÝ sýnýrlarý
+    16-7 SSÝ arýzagiderme
+        CAS16b.asc: Sayýsal sinyal iþleme detay ve devreleri-2-3-4-5-6-7 örneði.
+
+EK-A Lehimleme Ýþlemi
+EK-B CA.Schuler ile LTSpice
