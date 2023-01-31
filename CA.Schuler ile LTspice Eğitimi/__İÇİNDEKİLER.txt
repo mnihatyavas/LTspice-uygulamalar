@@ -1,4 +1,4 @@
-CA.Schuler: Electronics Principles and Applications (Toplam ?? örnek)
+CA.Schuler: Electronics Principles and Applications (Toplam 68 örnek)
 Not: Örneklerdeki bazý ardýþýk 1-2-3 tek örnekte önceki 3 altbaþlýklarýn içerildiðini,
      yada 4a, 4b, 4c ise 4.altbaþlýðýn 3 ayrý örnekte de ardýþýk iþlendiðini belirtir.
 ----------------------------------------------------------------------------------------------------
@@ -207,5 +207,7 @@ Bölüm-16 Sayýsal Sinyal Ýþleme
     16-7 SSÝ arýzagiderme
         CAS16b.asc: Sayýsal sinyal iþleme detay ve devreleri-2-3-4-5-6-7 örneði.
 
-EK-A Lehimleme Ýþlemi
+EK-A Lehim ve Lehimleme Ýþlevi
+    CASekA.asc: Devreler üzerindeki lehimleme iþlevleri örneði.
 EK-B CA.Schuler ile LTSpice
+    CASekB.asc: CA.Shuler ile LTSpice simülasyon tanýtýmý ve devre tasarýmlarý örneði.
