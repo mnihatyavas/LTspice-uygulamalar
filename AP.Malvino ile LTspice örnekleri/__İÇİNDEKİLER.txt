@@ -1,0 +1,272 @@
+ÝÇÝNDEKÝLER
+Epub kitap adý: Electronic Principles; Yazarlar: Albert P.Malvino, David J.Bates, Patrick E.Hoppe; Yayýmcý: 2021 - McGraw-Hill Education
+-------------------------------------
+Bölüm 1 Giriþ
+    1-1 Yakýnsamalar
+    1-2 Gerilim kaynaklarý
+    1-3 Akým kaynaklarý
+    1-4 Thevenin’in kuramý
+    1-5 Norton’un kuramý
+    1-6 DA devrede arýzagiderme
+    1-7 AA devrede arýzagiderme
+        EP01.asc: Elekroniðin Prensipleri'ne giriþ-1-2-3-4-5-6-7 örneði.
+
+Bölüm 2 Yarýiletkenler
+    2-1 Ýletkenler
+    2-2 Yarýiletkenler
+    2-3 Silikon kristallarý
+    2-4 Ýçsel yarýiletkenler
+    2-5 Ýki akýþ çeþidi
+    2-6 Bir yarýiletkeni katkýlama
+    2-7 Dýþsal yarýiletkenlerin iki çeþidi
+    2-8 Tetiksiz çiftüþek
+    2-9 Ýleri tetikleme
+    2-10 Geri tetikleme
+    2-11 Bozuþma
+    2-12 Enerji seviyeleri
+    2-13 Bariyer potansiyel ve sýcaklýk
+    2-14 Ters-tetikli çiftüþek
+        EP02.asc: Ýletken, yarýiletken, çiftüþek ve ileri/geri tetikleme-1->14 örneði.
+Bölüm 3 Çiftüþek Kuramý
+    3-1 Basic Ideas
+    3-2 The Ideal Diode
+    3-3 The Second Approximation
+    3-4 The Third Approximation
+    3-5 Troubleshooting
+    3-6 Reading a Data Sheet
+    3-7 How to Calculate Bulk Resistance
+    3-8 DC Resistance of a Diode
+    3-9 Load Lines
+    3-10 Surface-Mount Diodes
+    3-11 Introduction to Electronic Systems
+        EP03.asc: Çiftüþek kuramý, ideal, ikinci ve üçüncü tahminleme-1->11 örneði.
+Bölüm 4 Çiftüþek Devreleri
+    4-1 The Half-Wave Rectifier
+    4-2 The Transformer
+    4-3 The Full-Wave Rectifier
+    4-4 The Bridge Rectifier
+    4-5 The Choke-Input Filter
+    4-6 The Capacitor-Input Filter
+        EP04a.asc: Diyotlu doðrultaç, düzelteç, süzgeç, kenetçi ve kýrpýcý devreler-1->6 örneði.
+    4-7 Peak Inverse Voltage and Surge Current
+    4-8 Other Power-Supply Topics
+    4-9 Troubleshooting
+    4-10 Clippers and Limiters
+    4-11 Clampers
+    4-12 Voltage Multipliers
+Bölüm 5 Special-Purpose Diodes
+    5-1 The Zener Diode
+    5-2 The Loaded Zener Regulator
+    5-3 Second Approximation of a Zener Diode
+    5-4 Zener Drop-Out Point
+    5-5 Reading a Data Sheet
+    5-6 Troubleshooting
+    5-7 Load Lines
+    5-8 Light-Emitting Diodes (LEDs)
+    5-9 Other Optoelectronic Devices
+    5-10 The Schottky Diode
+    5-11 The Varactor
+    5-12 Other Diodes
+Bölüm 6 BJT Fundamentals
+    6-1 The Unbiased Transistor
+    6-2 The Biased Transistor
+    6-3 Transistor Currents
+    6-4 The CE Connection
+    6-5 The Base Curve
+    6-6 Collector Curves
+    6-7 Transistor Approximations
+    6-8 Reading Data Sheets
+    6-9 Surface-Mount Transistors
+    6-10 Variations in Current Gain
+    6-11 The Load Line
+    6-12 The Operating Point
+    6-13 Recognizing Saturation
+    6-14 The Transistor Switch
+    6-15 Troubleshooting
+Bölüm 7 BJT Biasing
+    7-1 Emitter Bias
+    7-2 LED Drivers
+    7-3 Troubleshooting Emitter Bias Circuits
+    7-4 More Optoelectronic Devices
+    7-5 Voltage-Divider Bias
+    7-6 Accurate VDB Analysis
+    7-7 VDB Load Line and Q Point
+    7-8 Two-Supply Emitter Bias
+    7-9 Other Types of Bias
+    7-10 Troubleshooting VDB Circuits
+    7-11PNP Transistors
+Bölüm 8 Basic BJT Amplifiers
+    8-1 Base-Biased Amplifier
+    8-2 Emitter-Biased Amplifier
+    8-3 Small-Signal Operation
+    8-4 AC Beta
+    8-5 AC Resistance of the Emitter Diode
+    8-6 Two Transistor Models
+    8-7 Analyzing an Amplifier
+    8-8 AC Quantities on the Data Sheet
+    8-9 Voltage Gain
+    8-10 The Loading Effect of Input Impedance
+    8-11 Swamped Amplifier
+    8-12 Troubleshooting
+Bölüm 9 Multistage, CC, and CB Amplifiers
+    9-1 Multistage Amplifiers
+    9-2 Two-Stage Feedback
+    9-3 CC Amplifier
+    9-4 Output Impedance
+    9-5 Cascading CE and CC
+    9-6 Darlington Connections
+    9-7 Voltage Regulation
+    9-8 The Common-Base Amplifier
+    9-9 Troubleshooting Multistage Amplifiers
+Bölüm 10 Power Amplifiers
+    10-1 Amplifier Terms
+    10-2 Two Load Lines
+    10-3 Class-A Operation
+    10-4 Class-B Operation
+    10-5 Class-B Push-Pull Emitter Follower
+    10-6 Biasing Class-AB Amplifiers
+    10-7 Class-AB Driver
+    10-8 Class-C Operation
+    10-9 Class-C Formulas
+    10-10 Transistor Power Rating
+Bölüm 11 JFETs
+    11-1 Basic Ideas
+    11-2 Drain Curves
+    11-3 The Transconductance Curve
+    11-4 Biasing in the Ohmic Region
+    11-5 Biasing in the Active Region
+    11-6 Transconductance
+    11-7 JFET Amplifiers
+    11-8 The JFET Analog Switch
+    11-9 Other JFET Applications
+    11-10 Reading Data Sheets
+    11-11 JFET Testing
+Bölüm 12 MOSFETs
+    12-1 The Depletion-Mode MOSFET
+    12-2 D-MOSFET Curves
+    12-3 Depletion-Mode MOSFET Amplifiers
+    12-4 The Enhancement-Mode MOSFET
+    12-5 The Ohmic Region
+    12-6 Digital Switching
+    12-7 CMOS
+    12-8 Power FETs
+    12-9 High-Side MOSFET Load Switches
+    12-10 MOSFET H-Bridge
+    12-11 E-MOSFET Amplifiers
+    12-12 Wide Bandgap (WBG) MOSFETs
+    12-13 MOSFET Testing
+Bölüm 13 Thyristors
+    13-1 The Four-Layer Diode
+    13-2 The Silicon Controlled Rectifier
+    13-3 The SCR Crowbar
+    13-4 SCR Phase Control
+    13-5 Bidirectional Thyristors
+    13-6 IGBTs
+    13-7 Other Thyristors
+    13-8 Troubleshooting
+Bölüm 14 Frequency Effects
+    14-1 Frequency Response of an Amplifier
+    14-2 Decibel Power Gain
+    14-3 Decibel Voltage Gain
+    14-4 Impedance Matching
+    14-5 Decibels above a Reference
+    14-6 Bode Plots
+    14-7 More Bode Plots
+    14-8 The Miller Effect
+    14-9 Risetime-Bandwidth Relationship
+    14-10 Frequency Analysis of BJT Stages
+    14-11 Frequency Analysis of FET Stages
+Bölüm 15 Differential Amplifiers
+    15-1 The Differential Amplifier
+    15-2 DC Analysis of a Diff Amp
+    15-3 AC Analysis of a Diff Amp
+    15-4 Input Characteristics of an Op Amp
+    15-5 Common-Mode Gain
+    15-6 Integrated Circuits
+    15-7 The Current Mirror
+    15-8 The Loaded Diff Amp
+    Bölüm 16 Operational Amplifiers 672
+    16-1 Introduction to Op Amps
+    16-2 The 741 Op Amp
+    16-3 The Inverting Amplifier
+    16-4 The Noninverting Amplifier
+    16-5 Two Op-Amp Applications
+    16-6 Linear ICs
+    16-7 Op Amps as Surface-Mount Devices
+Bölüm 17 Negative Feedback
+    17-1 Four Types of Negative Feedback
+    17-2 VCVS Voltage Gain
+    17-3 Other VCVS Equations
+    17-4 The ICVS Amplifier
+    17-5 The VCIS Amplifier
+    17-6 The ICIS Amplifier
+    17-7 Bandwidth
+Bölüm 18 Linear Op-Amp Circuit Applications
+    18-1 Inverting-Amplifier Circuits
+    18-2 Noninverting-Amplifier Circuits
+    18-3 Inverter/Noninverter Circuits
+    18-4 Differential Amplifiers
+    18-5 Instrumentation Amplifiers
+    18-6 Summing Amplifier Circuits
+    18-7 Current Boosters
+    18-8 Voltage-Controlled Current Sources
+    18-9 Automatic Gain Control
+    18-10 Single-Supply Operation
+Bölüm 19 Active Filters
+    19-1 Ideal Responses
+    19-2 Approximate Responses
+    19-3 Passive Filters
+    19-4 First-Order Stages
+    19-5 VCVS Unity-Gain Second-Order Low-Pass Filters
+    19-6 Higher-Order Filters
+    19-7 VCVS Equal-Component Low-Pass Filters
+    19-8 VCVS High-Pass Filters
+    19-9 MFB Bandpass Filters
+    19-10 Bandstop Filters
+    19-11 The All-Pass Filter
+    19-12 Biquadratic and State-Variable Filters
+Bölüm 20 Nonlinear Op-Amp Circuit Applications
+    20-1 Comparators with Zero Reference
+    20-2 Comparators with Nonzero References
+    20-3 Comparators with Hysteresis
+    20-4 Window Comparator
+    20-5 The Integrator
+    20-6 Waveform Conversion
+    20-7 Waveform Generation
+    20-8 Another Triangular Generator
+    20-9 Active-Diode Circuits
+    20-10 The Differentiator
+    20-11 Class-D Amplifier
+Bölüm 21 Oscillators
+    21-1 Theory of Sinusoidal Oscillation
+    21-2 The Wien-Bridge Oscillator
+    21-3 Other RC Oscillators
+    21-4 The Colpitts Oscillator
+    21-5 Other LC Oscillators
+    21-6 Quartz Crystals
+    21-7 The 555 Timer
+    21-8 Astable Operation of the 555 Timer
+    21-9 555 Circuit Applications
+    21-10 The Phase-Locked Loop
+    21-11 Function Generator ICs
+Bölüm 22 Regulated Power Supplies
+    22-1 Supply Characteristics
+    22-2 Shunt Regulators
+    22-3 Series Regulators
+    22-4 Monolithic Linear Regulators
+    22-5 Current Boosters
+    22-6 DC-to-DC Converters
+    22-7 Switching Regulators
+Bölüm 23 Industry 4.0
+    23-1 Industry 4.0: An Overview
+    23-2 Smart Sensors
+    23-3 Different Types of Sensors
+    23-4 Passive Sensors
+    23-5 Active Sensors
+    23-6 Data Conversion
+    23-7 Data Exchange
+Appendix A Data Sheet List
+Appendix B Mathematical Derivations
+Appendix C Digital/Analog Trainer System
+Appendix D Thevenizing the R/2R D/A Converter
+Appendix E Summary Table Listing
