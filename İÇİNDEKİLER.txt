@@ -1,0 +1,787 @@
+ÝÇÝNDEKÝLER
+Lessons In Electric Circuits, Volumes I-II-III-IV-V-VI
+By Tony R.Kuphaldt
+First Edition, last update November 06, 2021
+-------------------------------------------------------------------------------
+1 BASIC CONCEPTS OF ELECTRICITY 1
+1.1 Static electricity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.2 Conductors, insulators, and electron flow . . . . . . . . . . . . . . . . . . . . . . . 8
+1.3 Electric circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+1.4 Voltage and current . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+1.5 Resistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+1.6 Voltage and current in a practical circuit . . . . . . . . . . . . . . . . . . . . . . . 27
+1.7 Conventional versus electron flow . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+1.8 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+2 OHM’s LAW 35
+2.1 How voltage, current, and resistance relate . . . . . . . . . . . . . . . . . . . . . . 35
+2.2 An analogy for Ohm’s Law . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+2.3 Power in electric circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+2.4 Calculating electric power . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+2.5 Resistors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+2.6 Nonlinear conduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+2.7 Circuit wiring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+2.8 Polarity of voltage drops . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+2.9 Computer simulation of electric circuits . . . . . . . . . . . . . . . . . . . . . . . . 61
+2.10 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76
+3 ELECTRICAL SAFETY 77
+3.1 The importance of electrical safety . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+3.2 Physiological effects of electricity . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+3.3 Shock current path . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80
+3.4 Ohm’s Law (again!) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86
+3.5 Safe practices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+3.6 Emergency response . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96
+3.7 Common sources of hazard . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
+3.8 Safe circuit design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+3.9 Safe meter usage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+3.10 Electric shock data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+3.11 Contributors . . . . . . . . . . . 
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 117
+4 SCIENTIFIC NOTATION AND METRIC PREFIXES 119
+4.1 Scientific notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+4.2 Arithmetic with scientific notation . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+4.3 Metric notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123
+4.4 Metric prefix conversions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 124
+4.5 Hand calculator use . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125
+4.6 Scientific notation in SPICE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+4.7 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 128
+5 SERIES AND PARALLEL CIRCUITS 129
+5.1 What are ”series” and ”parallel” circuits? . . . . . . . . . . . . . . . . . . . . . . . 129
+5.2 Simple series circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132
+5.3 Simple parallel circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+5.4 Conductance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 144
+5.5 Power calculations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 146
+5.6 Correct use of Ohm’s Law . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 147
+5.7 Component failure analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 149
+5.8 Building simple resistor circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . 155
+5.9 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 170
+6 DIVIDER CIRCUITS AND KIRCHHOFF’S LAWS 171
+6.1 Voltage divider circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 171
+6.2 Kirchhoff’s Voltage Law (KVL) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 179
+6.3 Current divider circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 190
+6.4 Kirchhoff’s Current Law (KCL) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 193
+6.5 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 196
+7 SERIES-PARALLEL COMBINATION CIRCUITS 197
+7.1 What is a series-parallel circuit? . . . . . . . . . . . . . . . . . . . . . . . . . . . . 197
+7.2 Analysis technique . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 200
+7.3 Re-drawing complex schematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . 208
+7.4 Component failure analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 216
+7.5 Building series-parallel resistor circuits . . . . . . . . . . . . . . . . . . . . . . . . 221
+7.6 Contributors . . . . . . . . . . . . . . . .
+8 DC METERING CIRCUITS 235
+8.1 What is a meter? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 235
+8.2 Voltmeter design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 241
+8.3 Voltmeter impact on measured circuit . . . . . . . . . . . . . . . . . . . . . . . . . 246
+8.4 Ammeter design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 253
+8.5 Ammeter impact on measured circuit . . . . . . . . . . . . . . . . . . . . . . . . . 260
+8.6 Ohmmeter design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 264
+8.7 High voltage ohmmeters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 269
+8.8 Multimeters . . . . . . .
+8.9 Kelvin (4-wire) resistance measurement . . . . . . . . . . . . . . . . . . . . . . . 281
+8.10 Bridge circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 288
+8.11 Wattmeter design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 295
+8.12 Creating custom calibration resistances . . . . . . . . . . . . . . . . . . . . . . . . 296
+8.13 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 299
+9 ELECTRICAL INSTRUMENTATION SIGNALS 301
+9.1 Analog and digital signals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 301
+9.2 Voltage signal systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 304
+9.3 Current signal systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 306
+9.4 Tachogenerators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 309
+9.5 Thermocouples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 310
+9.6 pH measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 315
+9.7 Strain gauges . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 321
+9.8 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 328
+10 DC NETWORK ANALYSIS 329
+10.1 What is network analysis? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 329
+10.2 Branch current method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 332
+10.3 Mesh current method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 341
+10.4 Node voltage method . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 357
+10.5 Introduction to network theorems . . . . . . . . . . . . . . . . . . . . . . . . . . . 361
+10.6 Millman’s Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 361
+10.7 Superposition Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 364
+10.8 Thevenin’s Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 369
+10.9 Norton’s Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 373
+10.10Thevenin-Norton equivalencies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 377
+10.11Millman’s Theorem revisited . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 379
+10.12Maximum Power Transfer Theorem . . . . . . . . . . . . . . . . . . . . . . . . . . 381
+10.13?-Y and Y-? conversions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 383
+10.14Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 389
+Bibliography . . . . . . . . . . . . . . 
+11 BATTERIES AND POWER SYSTEMS 391
+11.1 Electron activity in chemical reactions . . . . . . . . . . . . . . . . . . . . . . . . 391
+11.2 Battery construction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 397
+11.3 Battery ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 400
+11.4 Special-purpose batteries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 402
+11.5 Practical considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 406
+11.6 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 408
+Bibliography . . . . . . .
+12 PHYSICS OF CONDUCTORS AND INSULATORS 409
+12.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 409
+12.2 Conductor size . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 411
+12.3 Conductor ampacity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 417
+12.4 Fuses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 419
+12.5 Specific resistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 426
+12.6 Temperature coefficient of resistance . . . . . . . . . . . . . . . . . . . . . . . . . 431
+12.7 Superconductivity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 434
+12.8 Insulator breakdown voltage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 436
+12.9 Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 438
+12.10Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 438
+13 CAPACITORS 439
+13.1 Electric fields and capacitance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 439
+13.2 Capacitors and calculus . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 444
+13.3 Factors affecting capacitance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 449
+13.4 Series and parallel capacitors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 453
+13.5 Practical considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 454
+13.6 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 459
+14 MAGNETISM AND ELECTROMAGNETISM 461
+14.1 Permanent magnets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 461
+14.2 Electromagnetism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 465
+14.3 Magnetic units of measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . 467
+14.4 Permeability and saturation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 470
+14.5 Electromagnetic induction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 475
+14.6 Mutual inductance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 477
+14.7 Contributors . . . . . .
+15 INDUCTORS 481
+15.1 Magnetic fields and inductance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 481
+15.2 Inductors and calculus . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 485
+15.3 Factors affecting inductance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 491
+15.4 Series and parallel inductors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 496
+15.5 Practical considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 498
+15.6 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 498
+16 RC AND L/R TIME CONSTANTS 499
+16.1 Electrical transients . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 499
+16.2 Capacitor transient response . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 499
+16.3 Inductor transient response . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 502
+16.4 Voltage and current calculations . . . . . . . . . . . . . . . . . . . . . . . . . . . . 505
+16.5 Why L/R and not LR? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 511
+16.6 Complex voltage and current calculations . . . . . . . . . . . . . . . . . . . . . . . 514
+16.7 Complex circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 515
+16.8 Solving for unknown time . .
+16.9 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 522
+A-1 ABOUT THIS BOOK 523
+A-2 CONTRIBUTOR LIST 527
+A-3 CC BY License 535
+INDEX
+------------------------------------------------------------------------------
+1 BASIC AC THEORY 1
+1.1 What is alternating current (AC)? . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.2 AC waveforms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+1.3 Measurements of AC magnitude . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+1.4 Simple AC circuit calculations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+1.5 AC phase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+1.6 Principles of radio . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+1.7 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+2 COMPLEX NUMBERS 27
+2.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+2.2 Vectors and AC waveforms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+2.3 Simple vector addition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+2.4 Complex vector addition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+2.5 Polar and rectangular notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+2.6 Complex number arithmetic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+2.7 More on AC ”polarity” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+2.8 Some examples with AC circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+2.9 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+3 REACTANCE AND IMPEDANCE – INDUCTIVE 57
+3.1 AC resistor circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+3.2 AC inductor circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+3.3 Series resistor-inductor circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+3.4 Parallel resistor-inductor circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71
+3.5 Inductor quirks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 74
+3.6 More on the “skin effect” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+3.7 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79
+4 REACTANCE AND IMPEDANCE – CAPACITIVE 81
+4.1 AC resistor circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+4.2 AC capacitor circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+4.3 Series resistor-capacitor circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+4.4 Parallel resistor-capacitor circuits . . . .
+4.5 Capacitor quirks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+4.6 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+5 REACTANCE AND IMPEDANCE – R, L, AND C 99
+5.1 Review of R, X, and Z . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+5.2 Series R, L, and C . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101
+5.3 Parallel R, L, and C . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+5.4 Series-parallel R, L, and C . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 110
+5.5 Susceptance and Admittance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+5.6 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+5.7 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+6 RESONANCE 121
+6.1 An electric pendulum . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+6.2 Simple parallel (tank circuit) resonance . . . . . . . . . . . . . . . . . . . . . . . . 126
+6.3 Simple series resonance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131
+6.4 Applications of resonance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135
+6.5 Resonance in series-parallel circuits . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+6.6 Q and bandwidth of a resonant circuit . . . . . . . . . . . . . . . . . . . . . . . . 146
+6.7 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 152
+7 MIXED-FREQUENCY AC SIGNALS 153
+7.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 153
+7.2 Square wave signals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158
+7.3 Other waveshapes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 169
+7.4 More on spectrum analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175
+7.5 Circuit effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 186
+7.6 Contributors . . . . .
+8 FILTERS 191
+8.1 What is a filter? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 191
+8.2 Low-pass filters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192
+8.3 High-pass filters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 198
+8.4 Band-pass filters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 201
+8.5 Band-stop filters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204
+8.6 Resonant filters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 206
+8.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218
+8.8 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218
+9 TRANSFORMERS 219
+9.1 Mutual inductance and basic operation . . . . . . . . . . . . . . . . . . . . . . . . 220
+9.2 Step-up and step-down transformers . . . . . . . . . . . . . . . . . . . . . . . . . 234
+9.3 Electrical isolation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 239
+9.4 Phasing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 241
+9.5 Winding configurations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 245
+9.6 Voltage regulation . . . . .
+9.7 Special transformers and applications . . . . . . . . . . . . . . . . . . . . . . . . . 254
+9.8 Practical considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 270
+9.9 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 287
+10 POLYPHASE AC CIRCUITS 289
+10.1 Single-phase power systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 289
+10.2 Three-phase power systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 295
+10.3 Phase rotation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 302
+10.4 Polyphase motor design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 306
+10.5 Three-phase Y and Delta configurations . . . . . . . . . . . . . . . . . . . . . . . . 312
+10.6 Three-phase transformer circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . 319
+10.7 Harmonics in polyphase power systems . . . . . . . . . . . . . . . . . . . . . . . . 324
+10.8 Harmonic phase sequences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+10.9 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 351
+11 POWER FACTOR 353
+11.1 Power in resistive and reactive AC circuits . . . . . . . . . . . . . . . . . . . . . . 353
+11.2 True, Reactive, and Apparent power . . . . . . . . . . . . . . . . . . . . . . . . . . 358
+11.3 Calculating power factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 361
+11.4 Practical power factor correction . . . . . . . . . . . . . . . . . . . . . . . . . . . . 366
+11.5 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 371
+12 AC METERING CIRCUITS 373
+12.1 AC voltmeters and ammeters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 373
+12.2 Frequency and phase measurement . . . . . . . . . . . . . . . . . . . . . . . . . . 380
+12.3 Power measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 388
+12.4 Power quality measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 390
+12.5 AC bridge circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 393
+12.6 AC instrumentation transducers . . . . . . . . . . . . . . . . . . . . . . . . . . . . 402
+12.7 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 412
+Bibliography .
+13 AC MOTORS 413
+13.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 414
+13.2 Synchronous Motors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 418
+13.3 Synchronous condenser . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 426
+13.4 Reluctance motor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 427
+13.5 Stepper motors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 431
+13.6 Brushless DC motor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 444
+13.7 Tesla polyphase induction motors . . . . . . . . . . . . . . . . . . . . . . . . . . . 448
+13.8 Wound rotor induction motors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 466
+13.9 Single-phase induction motors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 470
+13.10 Other specialized motors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 474
+13.11 Selsyn (synchro) motors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 477
+13.12 AC commutator motors .
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 488
+14 TRANSMISSION LINES 489
+14.1 A 50-ohm cable? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 489
+14.2 Circuits and the speed of light . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 490
+14.3 Characteristic impedance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 492
+14.4 Finite-length transmission lines . . . . . . . . . . . . . . . . . . . . . . . . . . . . 499
+14.5 “Long” and “short” transmission lines . . . . . . . . . . . . . . . . . . . . . . . . . 505
+14.6 Standing waves and resonance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 508
+14.7 Impedance transformation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 527
+14.8 Waveguides . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 535
+A-1 ABOUT THIS BOOK 541
+A-2 CONTRIBUTOR LIST 545
+A-3 CC BY License 553
+INDEX
+-----------------------------------------------------------------------------
+1 AMPLIFIERS AND ACTIVE DEVICES 1
+1.1 From electric to electronic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.2 Active versus passive devices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3 Amplifiers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.4 Amplifier gain . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+1.5 Decibels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+1.6 Absolute dB scales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+1.7 Attenuators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+2 SOLID-STATE DEVICE THEORY 27
+2.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+2.2 Quantum physics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+2.3 Valence and Crystal structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+2.4 Band theory of solids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+2.5 Electrons and “holes” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+2.6 The P-N junction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+2.7 Junction diodes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+2.8 Bipolar junction transistors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+2.9 Junction field-effect transistors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+2.10 Insulated-gate field-effect transistors (MOSFET) . . . . . . . . . . . . . . . . . . 70
+2.11 Thyristors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+2.12 Semiconductor manufacturing techniques . . . . . . . . . . . . . . . . . . . . . . 75
+2.13 Superconducting devices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80
+2.14 Quantum devices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+2.15 Semiconductor devices in SPICE . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+3 DIODES AND RECTIFIERS 97
+3.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
+3.2 Meter check of a diode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+3.3 Diode ratings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+3.4 Rectifier circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+3.5 Peak detector . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+3.6 Clipper circuits . . . .
+3.7 Clamper circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+3.8 Voltage multipliers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123
+3.9 Inductor commutating circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 130
+3.10 Diode switching circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132
+3.11 Zener diodes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 134
+3.12 Special-purpose diodes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 143
+3.13 Other diode technologies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 163
+3.14 SPICE models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 163
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 171
+4 BIPOLAR JUNCTION TRANSISTORS 173
+4.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 174
+4.2 The transistor as a switch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 176
+4.3 Meter check of a transistor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 179
+4.4 Active mode operation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+4.5 The common-emitter amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 189
+4.6 The common-collector amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 202
+4.7 The common-base amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 210
+4.8 The cascode amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218
+4.9 Biasing techniques . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 222
+4.10 Biasing calculations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 235
+4.11 Input and output coupling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 247
+4.12 Feedback . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 256
+4.13 Amplifier impedances . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 263
+4.14 Current mirrors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 264
+4.15 Transistor ratings and packages . . . . . . . . . . . . . . . . . . . . . . . . . . . . 269
+4.16 BJT quirks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 271
+Bibliography . . . .
+5 JUNCTION FIELD-EFFECT TRANSISTORS 279
+5.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 279
+5.2 The transistor as a switch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 281
+5.3 Meter check of a transistor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 284
+5.4 Active-mode operation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
+5.5 The common-source amplifier – PENDING . . . . . . . . . . . . . . . . . . . . . . 295
+5.6 The common-drain amplifier – PENDING . . . . . . . . . . . . . . . . . . . . . . 296
+5.7 The common-gate amplifier – PENDING . . . . . . . . . . . . . . . . . . . . . . . 296
+5.8 Biasing techniques – PENDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . 296
+5.9 Transistor ratings and packages – PENDING . . . . . . . . . . . . . . . . . . . . 297
+5.10 JFET quirks – PENDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 297
+6 INSULATED-GATE FIELD-EFFECT TRANSISTORS 299
+6.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 299
+6.2 Depletion-type IGFETs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300
+6.3 Enhancement-type IGFETs – PENDING . . . . . . . . . . . . . . . . . . . . . . . 309
+6.4 Active-mode operation – PENDING . . . . . .
+6.5 The common-source amplifier – PENDING . . . . . . . . . . . . . . . . . . . . . . 310
+6.6 The common-drain amplifier – PENDING . . . . . . . . . . . . . . . . . . . . . . 310
+6.7 The common-gate amplifier – PENDING . . . . . . . . . . . . . . . . . . . . . . . 310
+6.8 Biasing techniques – PENDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . 310
+6.9 Transistor ratings and packages – PENDING . . . . . . . . . . . . . . . . . . . . 310
+6.10 IGFET quirks – PENDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 311
+6.11 MESFETs – PENDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 311
+6.12 IGBTs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 311
+7 THYRISTORS 315
+7.1 Hysteresis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 315
+7.2 Gas discharge tubes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 316
+7.3 The Shockley Diode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 320
+7.4 The DIAC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 326
+7.5 The Silicon-Controlled Rectifier (SCR) . . . . . . . . . . . . . . . . . . . . . . . . . 327
+7.6 The TRIAC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 339
+7.7 Optothyristors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 342
+7.8 The Unijunction Transistor (UJT) . . . . . . . . . . . . . . . . . . . . . . . . . . . 342
+7.9 The Silicon-Controlled Switch (SCS) . . . . . . . . . . . . . . . . . . . . . . . . . . 348
+7.10 Field-effect-controlled thyristors . . . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+Bibliography . . . . . . . .
+8 OPERATIONAL AMPLIFIERS 353
+8.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 353
+8.2 Single-ended and differential amplifiers . . . . . . . . . . . . . . . . . . . . . . . . 354
+8.3 The ”operational” amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 358
+8.4 Negative feedback . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 364
+8.5 Divided feedback . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 367
+8.6 An analogy for divided feedback . . . . . . . . . . . . . . . . . . . . . . . . . . . . 370
+8.7 Voltage-to-current signal conversion . . . . . . . . . . . . . . . . . . . . . . . . . . 376
+8.8 Averager and summer circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 378
+8.9 Building a differential amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . 380
+8.10 The instrumentation amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 382
+8.11 Differentiator and integrator circuits . . . . . . . . . . . . . . . . . . . . . . . . . 383
+8.12 Positive feedback . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 386
+8.13 Practical considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 390
+8.14 Operational amplifier models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 404
+8.15 Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 411
+9 PRACTICAL ANALOG SEMICONDUCTOR CIRCUITS 413
+9.1 ElectroStatic Discharge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 413
+9.2 Power Supply circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 419
+9.3 Amplifier circuits – PENDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 432
+9.4 Oscillator circuits – INCOMPLETE . . . . . . . . . . . . . . . . . . . . . . . . . . 433
+9.5 Phase-locked loops – PENDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . 434
+9.6 Radio circuits – INCOMPLETE . .
+9.7 Computational circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 444
+9.8 Measurement circuits – INCOMPLETE . . . . . . . . . . . . . . . . . . . . . . . . 465
+9.9 Control circuits – PENDING . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 466
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 466
+10 ACTIVE FILTERS 469
+10.1 Two pole active filters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 469
+11 DC MOTOR DRIVES 471
+11.1 Pulse Width Modulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 471
+12 INVERTERS AND AC MOTOR DRIVES 475
+13 ELECTRON TUBES 477
+13.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 477
+13.2 Early tube history . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 478
+13.3 The triode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 481
+13.4 The tetrode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 483
+13.5 Beam power tubes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 484
+13.6 The pentode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 485
+13.7 Combination tubes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 486
+13.8 Tube parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 489
+13.9 Ionization (gas-filled) tubes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 491
+13.10Display tubes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 495
+13.11Microwave tubes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 498
+13.12Tubes versus Semiconductors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 501
+A-1 ABOUT THIS BOOK 505
+A-2 CONTRIBUTOR LIST 509
+A-3 CC BY License 517
+INDEX
+----------------------------------------------------------------------------
+1 NUMERATION SYSTEMS 1
+1.1 Numbers and symbols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.2 Systems of numeration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+1.3 Decimal versus binary numeration . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+1.4 Octal and hexadecimal numeration . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+1.5 Octal and hexadecimal to decimal conversion . . . . . . . . . . . . . . . . . . . . . 12
+1.6 Conversion from decimal numeration . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2 BINARY ARITHMETIC 19
+2.1 Numbers versus numeration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+2.2 Binary addition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+2.3 Negative binary numbers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+2.4 Subtraction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+2.5 Overflow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+2.6 Bit groupings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+3 LOGIC GATES 29
+3.1 Digital signals and gates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+3.2 The NOT gate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+3.3 The ”buffer” gate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+3.4 Multiple-input gates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+3.5 TTL NAND and AND gates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+3.6 TTL NOR and OR gates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+3.7 CMOS gate circuitry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+3.8 Special-output gates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+3.9 Gate universality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85
+3.10 Logic signal voltage levels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90
+3.11 DIP gate packaging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+3.12 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 102
+4 SWITCHES 103
+4.1 Switch types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+4.2 Switch contact design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+4.3 Contact ”normal” state and make/break sequence . . . .
+4.4 Contact ”bounce” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+5 ELECTROMECHANICAL RELAYS 119
+5.1 Relay construction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+5.2 Contactors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 122
+5.3 Time-delay relays . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125
+5.4 Protective relays . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132
+5.5 Solid-state relays . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+6 LADDER LOGIC 135
+6.1 ”Ladder” diagrams . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135
+6.2 Digital logic functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+6.3 Permissive and interlock circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . 144
+6.4 Motor control circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 147
+6.5 Fail-safe design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 150
+6.6 Programmable logic controllers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 154
+6.7 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 171
+7 BOOLEAN ALGEBRA 173
+7.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 173
+7.2 Boolean arithmetic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175
+7.3 Boolean algebraic identities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 178
+7.4 Boolean algebraic properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181
+7.5 Boolean rules for simplification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 184
+7.6 Circuit simplification examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 187
+7.7 The Exclusive-OR function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192
+7.8 DeMorgan’s Theorems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 193
+7.9 Converting truth tables into Boolean expressions . . .
+8 KARNAUGH MAPPING 219
+8.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 219
+8.2 Venn diagrams and sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220
+8.3 Boolean Relationships on Venn Diagrams . . . . . . . . . . . . . . . . . . . . . . . 223
+8.4 Making a Venn diagram look like a Karnaugh map . . . . . . . . . . . . . . . . . 228
+8.5 Karnaugh maps, truth tables, and Boolean expressions . . . . . . . . . . . . . . . 231
+8.6 Logic simplification with Karnaugh maps . . . . . . . . . . . . . . . . . . . . . . . 238
+8.7 Larger 4-variable Karnaugh maps . . . . . . . . . . . . . . . . . . . . . . . . . . . 245
+8.8 Minterm vs maxterm solution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 249
+8.9 ? (sum) and ? (product) notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 261
+8.10 Don’t care cells in the Karnaugh map . . . . . . . . . . . . . . . . . . . . . . . . . 262
+8.11 Larger 5 & 6-variable Karnaugh maps . . . . . . . . . . . . . . . . . . . . . . . . 265
+9 COMBINATIONAL LOGIC FUNCTIONS 273
+9.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 273
+9.2 A Half-Adder . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 274
+9.3 A Full-Adder .
+9.4 Decoder . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 282
+9.5 Encoder . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
+9.6 Demultiplexers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 290
+9.7 Multiplexers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 293
+9.8 Using multiple combinational circuits . . . . . . . . . . . . . . . . . . . . . . . . . 295
+10 MULTIVIBRATORS 299
+10.1 Digital logic with feedback . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 299
+10.2 The S-R latch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 303
+10.3 The gated S-R latch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 307
+10.4 The D latch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 308
+10.5 Edge-triggered latches: Flip-Flops . . . . . . . . . . . . . . . . . . . . . . . . . . . 310
+10.6 The J-K flip-flop . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 315
+10.7 Asynchronous flip-flop inputs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 317
+10.8 Monostable multivibrators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 319
+11 SEQUENTIAL CIRCUITS 323
+11.1 Binary count sequence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 323
+11.2 Asynchronous counters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 325
+11.3 Synchronous counters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 332
+11.4 Counter modulus . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 338
+11.5 Finite State Machines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 338
+Bibliography . . . . . .
+12 SHIFT REGISTERS 347
+12.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+12.2 Serial-in/serial-out shift register . . . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+12.3 Parallel-in, serial-out shift register . . . . . . . . . . . . . . . . . . . . . . . . . . . 359
+12.4 Serial-in, parallel-out shift register . . . . . . . . . . . . . . . . . . . . . . . . . . 370
+12.5 Parallel-in, parallel-out, universal shift register . . . . . . . . . . . . . . . . . . . 379
+12.6 Ring counters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 390
+12.7 references . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 403
+13 DIGITAL-ANALOG CONVERSION 405
+13.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 405
+13.2 The R/2nR DAC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 407
+13.3 The R/2R DAC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 410
+13.4 Flash ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 412
+13.5 Digital ramp ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 415
+13.6 Successive approximation ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 417
+13.7 Tracking ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 419
+13.8 Slope (integrating) ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 420
+13.9 Delta-Sigma (??) ADC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 423
+13.10Practical considerations of ADC circuits . . . .
+14 DIGITAL COMMUNICATION 431
+14.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 431
+14.2 Networks and busses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 435
+14.3 Data flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 439
+14.4 Electrical signal types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 440
+14.5 Optical data communication . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 444
+14.6 Network topology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 446
+14.7 Network protocols . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 448
+14.8 Practical considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 451
+15 DIGITAL STORAGE (MEMORY) 453
+15.1 Why digital? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 453
+15.2 Digital memory terms and concepts . . . . . . . . . . . . . . . . . . . . . . . . . . 454
+15.3 Modern nonmechanical memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . 456
+15.4 Historical, nonmechanical memory technologies . . . . . . . . . . . . . . . . . . . 458
+15.5 Read-only memory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 464
+15.6 Memory with moving parts: ”Drives” . . . . . . . . . . . . . . . . . . . . . . . . . 465
+16 PRINCIPLES OF DIGITAL COMPUTING 469
+16.1 A binary adder . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 469
+16.2 Look-up tables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 470
+16.3 Finite-state machines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 475
+16.4 Microprocessors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 479
+16.5 Microprocessor programming . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 482
+A-1 ABOUT THIS BOOK 485
+A-2 CONTRIBUTOR LIST 489
+A-3 CC BY License 497
+INDEX
+----------------------------------------------------------------------------
+1 USEFUL EQUATIONS AND CONVERSION FACTORS 1
+1.1 DC circuit equations and laws . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.2 Series circuit rules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.3 Parallel circuit rules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.4 Series and parallel component equivalent values . . . . . . . . . . . . . . . . . . 3
+1.5 Capacitor sizing equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+1.6 Inductor sizing equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+1.7 Time constant equations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+1.8 AC circuit equations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+1.9 Decibels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+1.10 Metric prefixes and unit conversions . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+1.11 Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+1.12 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+2 COLOR CODES 17
+2.1 Resistor Color Codes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+2.2 Wiring Color Codes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3 CONDUCTOR AND INSULATOR TABLES 23
+3.1 Copper wire gage table . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+3.2 Copper wire ampacity table . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+3.3 Coefficients of specific resistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+3.4 Temperature coefficients of resistance . . . . . . . . . . . . . . . . . . . . . . . . . 26
+3.5 Critical temperatures for superconductors . . . . . . . . . . . . . . . . . . . . . . 26
+3.6 Dielectric strengths for insulators . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+3.7 Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+4 ALGEBRA REFERENCE 29
+4.1 Basic identities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+4.2 Arithmetic properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+4.3 Properties of exponents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+4.4 Radicals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+4.5 Important constants . . . .
+4.6 Logarithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.7 Factoring equivalencies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+4.8 The quadratic formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+4.9 Sequences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+4.10 Factorials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+4.11 Solving simultaneous equations . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+4.12 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+5 TRIGONOMETRY REFERENCE 47
+5.1 Right triangle trigonometry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+5.2 Non-right triangle trigonometry . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+5.3 Trigonometric equivalencies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+5.4 Hyperbolic functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+5.5 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+6 CALCULUS REFERENCE 51
+6.1 Rules for limits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+6.2 Derivative of a constant . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+6.3 Common derivatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+6.4 Derivatives of power functions of e . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+6.5 Trigonometric derivatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+6.6 Rules for derivatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+6.7 The antiderivative (Indefinite integral) . . . . . . . . . . . . . . . . . . . . . . . . 55
+6.8 Common antiderivatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+6.9 Antiderivatives of power functions of e . . . . . . . . . . . . . . . . . . . . . . . . 56
+6.10 Rules for antiderivatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+6.11 Definite integrals and the fundamental theorem of calculus . . . . . . . . . . . . 56
+6.12 Differential equations . .
+7 USING THE SPICE CIRCUIT SIMULATION PROGRAM 59
+7.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+7.2 History of SPICE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+7.3 Fundamentals of SPICE programming . . . . . . . . . . . . . . . . . . . . . . . . 61
+7.4 The command-line interface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+7.5 Circuit components . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+7.6 Analysis options . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 75
+7.7 Quirks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+7.8 Example circuits and netlists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86
+8 TROUBLESHOOTING – THEORY AND PRACTICE 113
+8.1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114
+8.2 Questions to ask before proceeding . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+8.3 General troubleshooting tips . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+8.4 Specific troubleshooting techniques . . . . . . . . . . . . . . . . . . . . . . . . . . 117
+8.5 Likely failures in proven systems . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+8.6 Likely failures in unproven systems . . .
+8.7 Potential pitfalls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125
+8.8 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+9 CIRCUIT SCHEMATIC SYMBOLS 129
+9.1 Wires and connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 130
+9.2 Power sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131
+9.3 Resistors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131
+9.4 Capacitors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132
+9.5 Inductors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132
+9.6 Mutual inductors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+9.7 Switches, hand actuated . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 134
+9.8 Switches, process actuated . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135
+9.9 Switches, electrically actuated (relays) . . . . . . . . . . . . . . . . . . . . . . . . 136
+9.10 Connectors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+9.11 Diodes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 137
+9.12 Transistors, bipolar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 138
+9.13 Transistors, junction field-effect (JFET) . . . . . . . . . . . . . . . . . . . . . . . . 138
+9.14 Transistors, insulated-gate field-effect (IGFET or MOSFET) . . . . . . . . . . . . 139
+9.15 Transistors, hybrid . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+9.16 Thyristors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 140
+9.17 Integrated circuits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 141
+9.18 Electron tubes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 144
+10 PERIODIC TABLE OF THE ELEMENTS 145
+10.1 Table (landscape view) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 145
+10.2 Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 145
+A-1 ABOUT THIS BOOK 147
+A-2 CONTRIBUTOR LIST 151
+A-3 CC BY License 159
+INDEX
+------------------------------------------------------------------------
+1 INTRODUCTION 1
+1.1 Electronics as science . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.2 Setting up a home lab . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3 Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+2 BASIC CONCEPTS AND TEST EQUIPMENT 15
+2.1 Voltmeter usage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+2.2 Ohmmeter usage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+2.3 A very simple circuit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+2.4 Ammeter usage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+2.5 Ohm’s Law . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+2.6 Nonlinear resistance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+2.7 Power dissipation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+2.8 Circuit with a switch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+2.9 Electromagnetism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+2.10 Electromagnetic induction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+3 DC CIRCUITS 59
+3.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+3.2 Series batteries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+3.3 Parallel batteries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+3.4 Voltage divider . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+3.5 Current divider . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+3.6 Potentiometer as a voltage divider . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+3.7 Potentiometer as a rheostat . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+3.8 Precision potentiometer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+3.9 Rheostat range limiting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 102
+3.10 Thermoelectricity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 109
+3.11 Make your own multimeter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 112
+3.12 Sensitive voltage detector . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 117
+3.13 Potentiometric voltmeter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 122
+3.14 4-wire resistance measurement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+3.15 A very simple computer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131
+3.16 Potato battery . . . . . .
+3.17 Capacitor charging and discharging . . . . . . . . . . . . . . . . . . . . . . . . . . 138
+3.18 Rate-of-change indicator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 142
+4 AC CIRCUITS 145
+4.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 145
+4.2 Transformer – power supply . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 147
+4.3 Build a transformer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 151
+4.4 Variable inductor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 153
+4.5 Sensitive audio detector . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 155
+4.6 Sensing AC magnetic fields . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160
+4.7 Sensing AC electric fields . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 162
+4.8 Automotive alternator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 164
+4.9 Induction motor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 170
+4.10 Induction motor, large . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 174
+4.11 Phase shift . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177
+4.12 Sound cancellation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180
+4.13 Musical keyboard as a signal generator . . . . . . . . . . . . . . . . . . . . . . . . 183
+4.14 PC Oscilloscope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 186
+4.15 Waveform analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 189
+4.16 Inductor-capacitor ”tank” circuit . . . . . . . . . . . . . . . . . . . . . . . . . . . . 191
+4.17 Signal coupling
+5 DISCRETE SEMICONDUCTOR CIRCUITS 201
+5.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 202
+5.2 Commutating diode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 203
+5.3 Half-wave rectifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 205
+5.4 Full-wave center-tap rectifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 213
+5.5 Full-wave bridge rectifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218
+5.6 Rectifier/filter circuit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 221
+5.7 Voltage regulator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 227
+5.8 Transistor as a switch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 230
+5.9 Static electricity sensor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 235
+5.10 Pulsed-light sensor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 238
+5.11 Voltage follower . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 241
+5.12 Common-emitter amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 246
+5.13 Multi-stage amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 251
+5.14 Current mirror . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 255
+5.15 JFET current regulator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 261
+5.16 Differential amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 266
+5.17 Simple op-amp . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 269
+5.18 Audio oscillator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 274
+5.19 Vacuum tube audio amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 277
+Bibliography . . . . . . . . . 
+6 ANALOG INTEGRATED CIRCUITS 289
+6.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 289
+6.2 Voltage comparator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 291
+6.3 Precision voltage follower . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 294
+6.4 Noninverting amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 298
+6.5 High-impedance voltmeter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 301
+6.6 Integrator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 305
+6.7 555 audio oscillator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 311
+6.8 555 ramp generator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 314
+6.9 PWM power controller . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 317
+6.10 Class B audio amplifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 321
+7 DIGITAL INTEGRATED CIRCUITS 331
+7.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 331
+7.2 Basic gate function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 333
+7.3 NOR gate S-R latch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 337
+7.4 NAND gate S-R enabled latch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 341
+7.5 NAND gate S-R flip-flop . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 343
+7.6 LED sequencer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 347
+7.7 Simple combination lock . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 356
+7.8 3-bit binary counter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 359
+7.9 7-segment display . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 361
+8 555 TIMER CIRCUITS 365
+8.1 The 555 IC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 365
+8.2 555 Schmitt Trigger . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 366
+8.3 555 HYSTERETIC OSCILLATOR . . . . . . . . . . . . . . . . . . . . . . . . . . . 370
+8.4 555 MONOSTABLE MULTIVIBRATOR . . . . . . . . . . . . . . . . . . . . . . . 373
+8.5 CMOS 555 LONG DURATION MINIMUM PARTS RED LED FLASHER . . . . 378
+8.6 CMOS 555 LONG DURATION BLUE LED FLASHER . . . . . . . . . . . . . . . 383
+8.7 CMOS 555 LONG DURATION FLYBACK LED FLASHER . . . . . . . . . . . . 387
+8.8 HOW TO MAKE AN INDUCTOR . . . . . . . . . . . . . . . . . . . . . . . . . . . 390
+8.9 CMOS 555 LONG DURATION RED LED FLASHER . . . .
+A-1 ABOUT THIS BOOK 397
+A-2 CONTRIBUTOR LIST 401
+A-3 CC BY License 409
+INDEX
