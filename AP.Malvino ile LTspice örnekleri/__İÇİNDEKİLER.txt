@@ -28,73 +28,82 @@ Bölüm 2 Yarýiletkenler
     2-14 Ters-tetikli çiftüþek
         EP02.asc: Ýletken, yarýiletken, çiftüþek ve ileri/geri tetikleme-1->14 örneði.
 Bölüm 3 Çiftüþek Kuramý
-    3-1 Basic Ideas
-    3-2 The Ideal Diode
-    3-3 The Second Approximation
-    3-4 The Third Approximation
-    3-5 Troubleshooting
-    3-6 Reading a Data Sheet
-    3-7 How to Calculate Bulk Resistance
-    3-8 DC Resistance of a Diode
-    3-9 Load Lines
-    3-10 Surface-Mount Diodes
-    3-11 Introduction to Electronic Systems
+    3-1 Temel kavramlar
+    3-2 Ýdeal çiftüþek
+    3-3 Ýkinci yaklaþýklama
+    3-4 Üçüncü yaklaþýklama
+    3-5 Arýzagiderme
+    3-6 Bir veri belgesini okuma
+    3-7 Yýðýn direnci hesaplama
+    3-8 Bir çiftüþeðin da direnci
+    3-9 Yük hatlarý
+    3-10 Yüzey-monteli çiftüþekler
+    3-11 Elektronik sistemlere giriþ
         EP03.asc: Çiftüþek kuramý, ideal, ikinci ve üçüncü tahminleme-1->11 örneði.
 Bölüm 4 Çiftüþek Devreleri
-    4-1 The Half-Wave Rectifier
-    4-2 The Transformer
-    4-3 The Full-Wave Rectifier
-    4-4 The Bridge Rectifier
-    4-5 The Choke-Input Filter
-    4-6 The Capacitor-Input Filter
-        EP04a.asc: Diyotlu doðrultaç, düzelteç, süzgeç, kenetçi ve kýrpýcý devreler-1->6 örneði.
-    4-7 Peak Inverse Voltage and Surge Current
-    4-8 Other Power-Supply Topics
-    4-9 Troubleshooting
-    4-10 Clippers and Limiters
-    4-11 Clampers
-    4-12 Voltage Multipliers
-Bölüm 5 Special-Purpose Diodes
-    5-1 The Zener Diode
-    5-2 The Loaded Zener Regulator
-    5-3 Second Approximation of a Zener Diode
-    5-4 Zener Drop-Out Point
-    5-5 Reading a Data Sheet
-    5-6 Troubleshooting
-    5-7 Load Lines
-    5-8 Light-Emitting Diodes (LEDs)
-    5-9 Other Optoelectronic Devices
-    5-10 The Schottky Diode
-    5-11 The Varactor
-    5-12 Other Diodes
-Bölüm 6 BJT Fundamentals
-    6-1 The Unbiased Transistor
-    6-2 The Biased Transistor
-    6-3 Transistor Currents
-    6-4 The CE Connection
-    6-5 The Base Curve
-    6-6 Collector Curves
-    6-7 Transistor Approximations
-    6-8 Reading Data Sheets
-    6-9 Surface-Mount Transistors
-    6-10 Variations in Current Gain
-    6-11 The Load Line
-    6-12 The Operating Point
-    6-13 Recognizing Saturation
-    6-14 The Transistor Switch
-    6-15 Troubleshooting
-Bölüm 7 BJT Biasing
-    7-1 Emitter Bias
-    7-2 LED Drivers
-    7-3 Troubleshooting Emitter Bias Circuits
-    7-4 More Optoelectronic Devices
-    7-5 Voltage-Divider Bias
-    7-6 Accurate VDB Analysis
-    7-7 VDB Load Line and Q Point
-    7-8 Two-Supply Emitter Bias
-    7-9 Other Types of Bias
-    7-10 Troubleshooting VDB Circuits
-    7-11PNP Transistors
+    4-1 Yarým-dalga doðrultaç
+    4-2 Dönüþtüreç
+    4-3 Tam-dalga doðrultaç
+    4-4 Köprü doðrultaç
+    4-5 Boðan-girdi süzgeci
+    4-6 Sýðaç-girdi süzgeci
+        EP04a.asc: Diyotlu doðrultaç, düzelteç, süzgeç, kenetçi ve kýrpýcý devreler-1 örneði.
+    4-7 Tepe ters gerilim ve þok akým
+    4-8 Diðer güç-besleme mevzularý
+    4-9 Arýzagiderme
+        EP04b.asc: Diyotlu doðrultaç, düzelteç, süzgeç, kenetçi ve kýrpýcý devreler-2 örneði.
+    4-10 Kýrpýcýlar ve sýnýrlayýcýlar
+    4-11 Kenetçiler
+        EP04b.asc: Diyotlu doðrultaç, düzelteç, süzgeç, kýrpýcý ve kenetçi devreler-3 örneði.
+    4-12 Gerilim çoklayýcýlar
+        EP04c.asc: Diyotlu doðrultaç, düzelteç, süzgeç, kýrpýcý ve kenetçi devreler-4 örneði.
+Bölüm 5 Özel-AmaçlýÇiftüþekler
+    5-1 Zener çiftüþek
+    5-2 Yüklü zener düzelteç
+    5-3 Bir zener çiftüþeðin ikinci yaklaþýklamasý
+    5-4 Zener devre-dýþý noktasý
+    5-5 Bir veri belgesini okuma
+    5-6 Arýzagiderme
+    5-7 Yük hatlarý
+        EP05a.asc: Zener, LED, þotki, varactor ve diðer diyotlu devreler-1 örneði.
+    5-8 Iþýk-yayan çiftüþekler (LEDs)
+    5-9 Diðer ýþýnelektronik aygýtlar
+    5-10 Þotki çiftüþek
+    5-11 Varaktor
+    5-12 Diðer çiftüþekler
+        EP05b.asc: Zener, LED, þotki, varaktor ve diðer diyotlu devreler-2 örneði.
+Bölüm 6 BJT Temelleri
+    6-1 Tetiksiz transistör
+    6-2 Tetikli transistör
+    6-3 Transistör akýmlarý
+    6-4 CE toplayýcý-yayýcý baðlantýsý
+    6-5 Temel eðriler
+    6-6 Toplayýcý eðriler
+        EP06a.asc: BJT transistörün yükselteç ve düðmeleme fonksiyonlarý-1 örneði.
+    6-7 Transistör yaklaþýklama
+    6-8 Veri belgelerini okuma
+    6-9 Yüzey-monteli transistörler
+    6-10 Akým kazancýndaki oynamalar
+    6-11 Yük hattý
+    6-12 Q Çalýþma noktasý
+    6-13 Doygunluðun tanýnmasý
+    6-14 Transistör düðmeleme
+    6-15 Arýzagiderme
+        EP06a.asc: BJT transistörün yükselteç ve düðmeleme fonksiyonlarý-2 örneði.
+Bölüm 7 BJT Tetiklemeleri
+    7-1 Yayýcý tetikleme
+    7-2 LED Sürücüler
+    7-3 Yayýcý tetikleme devrelerinde arýzagiderme
+        EP07a.asc: BJT transistörün temel, yayýcý ve yayýcý-bölücü tetikleme devreleri-1 örneði.
+    7-4 Iþýkelektronik aygýtlarýnda daha fazlasý
+    7-5 Gerilim-bölücü tetikleme
+    7-6 Hassas GBT analizleri
+    7-7 GBT yükhattý ve Q noktasý
+    7-8 Çift beslemeli yayýcý tetikleme
+    7-9 Diðer tetikleme tipleri
+    7-10 GBT devrelerinde arýzagiderme
+        EP07b.asc: BJT transistörün temel, yayýcý ve yayýcý-bölücü tetikleme devreleri-2 örneði.
+    7-11 PNP transistörler
 Bölüm 8 Basic BJT Amplifiers
     8-1 Base-Biased Amplifier
     8-2 Emitter-Biased Amplifier
