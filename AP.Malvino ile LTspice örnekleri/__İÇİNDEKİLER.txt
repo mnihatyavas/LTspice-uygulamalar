@@ -102,9 +102,9 @@ Bölüm 7 BJT Tetiklemeleri
     7-8 Çift beslemeli yayýcý tetikleme
     7-9 Diðer tetikleme tipleri
     7-10 GBT devrelerinde arýzagiderme
-        EP07b.asc: BJT transistörün temel, yayýcý ve yayýcý-bölücü tetikleme devreleri-2 örneði.
     7-11 PNP transistörler
-Bölüm 8 Basic BJT Amplifiers
+        EP07b.asc: BJT transistörün temel, yayýcý ve yayýcý-bölücü tetikleme devreleri-2 örneði.
+Bölüm 8 Temel BJT Yükselteçler
     8-1 Base-Biased Amplifier
     8-2 Emitter-Biased Amplifier
     8-3 Small-Signal Operation
