@@ -1,5 +1,5 @@
 ÝÇÝNDEKÝLER
-Epub kitap adý: Electronic Principles; Yazarlar: Albert P.Malvino, David J.Bates, Patrick E.Hoppe; Yayýmcý: 2021 - McGraw-Hill Education
+Kitap adý: Electronic Principles; Yazarlar: Albert P.Malvino, David J.Bates, Patrick E.Hoppe; Yayýmcý: 2021 - McGraw-Hill Education
 -------------------------------------
 Bölüm 1 Giriþ
     1-1 Yakýnsamalar
@@ -10,7 +10,6 @@ Bölüm 1 Giriþ
     1-6 DA devrede arýzagiderme
     1-7 AA devrede arýzagiderme
         EP01.asc: Elekroniðin Prensipleri'ne giriþ-1-2-3-4-5-6-7 örneði.
-
 Bölüm 2 Yarýiletkenler
     2-1 Ýletkenler
     2-2 Yarýiletkenler
@@ -89,7 +88,7 @@ Bölüm 6 BJT Temelleri
     6-13 Doygunluðun tanýnmasý
     6-14 Transistör düðmeleme
     6-15 Arýzagiderme
-        EP06a.asc: BJT transistörün yükselteç ve düðmeleme fonksiyonlarý-2 örneði.
+        EP06b.asc: BJT transistörün yükselteç ve düðmeleme fonksiyonlarý-2 örneði.
 Bölüm 7 BJT Tetiklemeleri
     7-1 Yayýcý tetikleme
     7-2 LED Sürücüler
@@ -105,167 +104,220 @@ Bölüm 7 BJT Tetiklemeleri
     7-11 PNP transistörler
         EP07b.asc: BJT transistörün temel, yayýcý ve yayýcý-bölücü tetikleme devreleri-2 örneði.
 Bölüm 8 Temel BJT Yükselteçler
-    8-1 Base-Biased Amplifier
-    8-2 Emitter-Biased Amplifier
-    8-3 Small-Signal Operation
+    8-1 Temel-tetiklemeli yükselteç
+    8-2 Yayýcý-tetiklemeli yükselteç
+    8-3 Zayýf-sinyal iþlemi
     8-4 AC Beta
-    8-5 AC Resistance of the Emitter Diode
-    8-6 Two Transistor Models
-    8-7 Analyzing an Amplifier
-    8-8 AC Quantities on the Data Sheet
-    8-9 Voltage Gain
-    8-10 The Loading Effect of Input Impedance
-    8-11 Swamped Amplifier
-    8-12 Troubleshooting
-Bölüm 9 Multistage, CC, and CB Amplifiers
-    9-1 Multistage Amplifiers
-    9-2 Two-Stage Feedback
-    9-3 CC Amplifier
-    9-4 Output Impedance
-    9-5 Cascading CE and CC
-    9-6 Darlington Connections
-    9-7 Voltage Regulation
-    9-8 The Common-Base Amplifier
-    9-9 Troubleshooting Multistage Amplifiers
-Bölüm 10 Power Amplifiers
-    10-1 Amplifier Terms
-    10-2 Two Load Lines
-    10-3 Class-A Operation
-    10-4 Class-B Operation
-    10-5 Class-B Push-Pull Emitter Follower
+    8-5 Yayýcý diyodun AC direnci
+    8-6 Ýki transistör modelleri
+    8-7 Bir yükseltecin analizi
+    8-8 Veri belgesindeki AC miktarlar
+    8-9 Gerilim kazancý
+    8-10 Girdi çelisinin yükleme etkisi
+    8-11 Batýran yükselteç
+    8-12 Arýzagiderme
+        EP08.asc: Temel BJT düþük-sinyal yükselteçler, dc/ac kazançlý devreleri örneði.
+Bölüm 9 Çokluevre, OrtakToplayýcý ve OrtakTemel Yükselteçler
+    9-1 Çokluevreli yükselteçler
+    9-2 Ýki-safhalý geribesleme
+    9-3 OrtakToplayýcý yükselteç
+    9-4 Çýktý çelisi
+    9-5 OrtakYayýcý ve OrtakToplayýcýyý basamaklama
+    9-6 Darlington/üstüste baðlantýlar
+    9-7 Gerilim düzenleme
+    9-8 OrtakTemel yükselteci
+    9-9 Çokevreli yükselteçlerde arýzagiderme
+        EP09.asc: Çoksafhalý ve CC/yayýcý-takipci yükselteç devreleri örneði.
+Bölüm 10 Güç Yükselteçleri
+    10-1 Yükselteç terimleri
+    10-2 Ýkili yük hattý
+    10-3 Sýnýf-A iþlemi
+    10-4 Sýnýf-B iþlemi
+    10-5 Sýnýf-B it-çek yayýcý takipçi
+        EP10a.asc: Güç yükselteç devreleri-1 örneði.
     10-6 Biasing Class-AB Amplifiers
-    10-7 Class-AB Driver
-    10-8 Class-C Operation
-    10-9 Class-C Formulas
-    10-10 Transistor Power Rating
-Bölüm 11 JFETs
-    11-1 Basic Ideas
-    11-2 Drain Curves
-    11-3 The Transconductance Curve
-    11-4 Biasing in the Ohmic Region
-    11-5 Biasing in the Active Region
-    11-6 Transconductance
-    11-7 JFET Amplifiers
-    11-8 The JFET Analog Switch
-    11-9 Other JFET Applications
-    11-10 Reading Data Sheets
-    11-11 JFET Testing
-Bölüm 12 MOSFETs
-    12-1 The Depletion-Mode MOSFET
-    12-2 D-MOSFET Curves
-    12-3 Depletion-Mode MOSFET Amplifiers
-    12-4 The Enhancement-Mode MOSFET
-    12-5 The Ohmic Region
-    12-6 Digital Switching
+    10-7 Sýnýf-AB sürücü
+    10-8 Sýnýf-C iþlemi
+    10-9 Sýnýf-C Formülleri
+    10-10 Transistör güç oraný
+        EP10b.asc: Güç yükselteç devreleri-2 örneði.
+Bölüm 11 JFET'ler
+    11-1 Temel fikirler
+    11-2 Akaç eðrileri
+    11-3 Ýletkenlikötesi eðri
+    11-4 Ohm'sal bölgede tetikleme
+    11-5 Aktif bölgede tetikleme
+        EP11a.asc: Tek kutuplu JFET/JunctionFieldEffectTransistör devreleri-1 örneði.
+    11-6 Ýletkenlikötesi
+    11-7 JFET yükselteçler
+    11-8 JFET örneksel düðme
+        EP11b.asc: Tek kutuplu JFET/JunctionFieldEffectTransistör devreleri-2 örneði.
+    11-9 Diðer JFET uygulamalarý
+    11-10 Veri belgelerini okuma
+    11-11 JFET testi
+        EP11c.asc: Tek kutuplu JFET/JunctionFieldEffectTransistör devreleri-3 örneði.
+Bölüm 12 MOSFET'ler
+    12-1 Kýtlýk-kipli MOSFET
+    12-2 D-MOSFET eðrileri
+    12-3 Kýtlýk-kipli MOSFET yükselteçler
+    12-4 Pekiþik-kipli MOSFET
+    12-5 Ohmsal bölge
+    12-6 Sayýsal düðmeleme
+        EP12a.asc: Tek kutuplu MOSFET/MetalOxideSemiconductorFET devreleri-1 örneði.
     12-7 CMOS
-    12-8 Power FETs
-    12-9 High-Side MOSFET Load Switches
+    12-8 Güç FET'leri
+        EP12b.asc: Tek kutuplu MOSFET/MetalOxideSemiconductorFET devreleri-2 örneði.
+    12-9 Yüksek-taraf MOSFET yük düðmeleri
     12-10 MOSFET H-Bridge
-    12-11 E-MOSFET Amplifiers
-    12-12 Wide Bandgap (WBG) MOSFETs
-    12-13 MOSFET Testing
-Bölüm 13 Thyristors
-    13-1 The Four-Layer Diode
-    13-2 The Silicon Controlled Rectifier
-    13-3 The SCR Crowbar
-    13-4 SCR Phase Control
-    13-5 Bidirectional Thyristors
+        EP12c.asc: Tek kutuplu MOSFET/MetalOxideSemiconductorFET devreleri-3 örneði.
+    12-11 E-MOSFET yükselteçler
+    12-12 Geniþ bantaralýklý MOSFET'ler
+    12-13 MOSFET testi
+        EP12d.asc: Tek kutuplu MOSFET/MetalOxideSemiconductorFET devreleri-4 örneði.
+Bölüm 13 Tristörler
+    13-1 Dört katmanlý çiftüþek
+    13-2 Silikon kontrollu doðrultaç (SCR)
+        EP13a.asc: Güç-düðmeleme tristör devreleri-1 örneði.
+    13-3 SCR levyesi
+    13-4 SCR faz kontrolu
+        EP13b.asc: Güç-düðmeleme tristör devreleri-2 örneði.
+    13-5 Çiftyönlü tristörler
     13-6 IGBTs
-    13-7 Other Thyristors
-    13-8 Troubleshooting
-Bölüm 14 Frequency Effects
-    14-1 Frequency Response of an Amplifier
-    14-2 Decibel Power Gain
-    14-3 Decibel Voltage Gain
-    14-4 Impedance Matching
-    14-5 Decibels above a Reference
-    14-6 Bode Plots
+        EP13c.asc: Güç-düðmeleme tristör devreleri-3 örneði.
+    13-7 Diðer tristörler
+        EP13d.asc: Güç-düðmeleme tristör devreleri-4 örneði.
+    13-8 Arýzagiderme
+        EP13e.asc: Güç-düðmeleme tristör devreleri-5 örneði.
+Bölüm 14 Frekans etkileri
+    14-1 Bir yükselteçin frekans yanýtý
+    14-2 Desibel güç kazancý
+    14-3 Desibel gerilim kazancý
+    14-4 Çeli uyumu
+    14-5 Bir referans üstü desibeller
+    14-6 Bode çizimleri
     14-7 More Bode Plots
-    14-8 The Miller Effect
-    14-9 Risetime-Bandwidth Relationship
-    14-10 Frequency Analysis of BJT Stages
-    14-11 Frequency Analysis of FET Stages
-Bölüm 15 Differential Amplifiers
-    15-1 The Differential Amplifier
-    15-2 DC Analysis of a Diff Amp
-    15-3 AC Analysis of a Diff Amp
-    15-4 Input Characteristics of an Op Amp
+    14-8 Miller etkileri
+        EP14a.asc: AC/DC yükselteçli devrelerde frekans etkisi-1 örneði.
+    14-9 Yükseliþzamaný-bantgeniþlði iliþkisi
+    14-10 BJT evrelerinin frekans analizi
+    14-11 FET evrelerinin frekans analizi
+        EP14b.asc: AC/DC yükselteçli devrelerde frekans etkisi-2 örneði.
+Bölüm 15 Fark Yükselteçleri
+    15-1 Fark yükselteçi
+    15-2 Bir FrkYük'ün DC Analizi
+    15-3 Bir FrkYük'ün AC Analizi
+    15-4 Bir ÝþYük'ün karakteristikleri
+        EP15a.asc: FarkYük/DiffAmp entegresiyle AC/DC devre analizleri-1 örneði.
     15-5 Common-Mode Gain
-    15-6 Integrated Circuits
-    15-7 The Current Mirror
-    15-8 The Loaded Diff Amp
-    Bölüm 16 Operational Amplifiers 672
-    16-1 Introduction to Op Amps
-    16-2 The 741 Op Amp
-    16-3 The Inverting Amplifier
-    16-4 The Noninverting Amplifier
-    16-5 Two Op-Amp Applications
-    16-6 Linear ICs
-    16-7 Op Amps as Surface-Mount Devices
-Bölüm 17 Negative Feedback
-    17-1 Four Types of Negative Feedback
-    17-2 VCVS Voltage Gain
-    17-3 Other VCVS Equations
-    17-4 The ICVS Amplifier
-    17-5 The VCIS Amplifier
-    17-6 The ICIS Amplifier
-    17-7 Bandwidth
-Bölüm 18 Linear Op-Amp Circuit Applications
-    18-1 Inverting-Amplifier Circuits
-    18-2 Noninverting-Amplifier Circuits
-    18-3 Inverter/Noninverter Circuits
-    18-4 Differential Amplifiers
-    18-5 Instrumentation Amplifiers
-    18-6 Summing Amplifier Circuits
-    18-7 Current Boosters
-    18-8 Voltage-Controlled Current Sources
-    18-9 Automatic Gain Control
-    18-10 Single-Supply Operation
-Bölüm 19 Active Filters
-    19-1 Ideal Responses
-    19-2 Approximate Responses
-    19-3 Passive Filters
-    19-4 First-Order Stages
-    19-5 VCVS Unity-Gain Second-Order Low-Pass Filters
-    19-6 Higher-Order Filters
-    19-7 VCVS Equal-Component Low-Pass Filters
-    19-8 VCVS High-Pass Filters
-    19-9 MFB Bandpass Filters
-    19-10 Bandstop Filters
-    19-11 The All-Pass Filter
-    19-12 Biquadratic and State-Variable Filters
-Bölüm 20 Nonlinear Op-Amp Circuit Applications
-    20-1 Comparators with Zero Reference
-    20-2 Comparators with Nonzero References
-    20-3 Comparators with Hysteresis
-    20-4 Window Comparator
-    20-5 The Integrator
-    20-6 Waveform Conversion
-    20-7 Waveform Generation
-    20-8 Another Triangular Generator
-    20-9 Active-Diode Circuits
-    20-10 The Differentiator
-    20-11 Class-D Amplifier
-Bölüm 21 Oscillators
-    21-1 Theory of Sinusoidal Oscillation
-    21-2 The Wien-Bridge Oscillator
-    21-3 Other RC Oscillators
-    21-4 The Colpitts Oscillator
-    21-5 Other LC Oscillators
-    21-6 Quartz Crystals
-    21-7 The 555 Timer
-    21-8 Astable Operation of the 555 Timer
-    21-9 555 Circuit Applications
-    21-10 The Phase-Locked Loop
-    21-11 Function Generator ICs
-Bölüm 22 Regulated Power Supplies
-    22-1 Supply Characteristics
-    22-2 Shunt Regulators
-    22-3 Series Regulators
-    22-4 Monolithic Linear Regulators
-    22-5 Current Boosters
-    22-6 DC-to-DC Converters
-    22-7 Switching Regulators
+    15-6 Tümleþik devreler
+    15-7 Akým aynasý
+    15-8 Yüklü FrkYük
+        EP15b.asc: FarkYük/DiffAmp entegresiyle AC/DC devre analizleri-2 örneði.
+Bölüm 16 Ýþlemsel Yükselteçler
+    16-1 ÝþYük'lere giriþ
+    16-2 741 ÝþYük
+    16-3 Tersleyen yükselteç
+        EP16a.asc: OpAmp/ÝþYük Ýþlemsel Yükselteç devreleri-1 örneði.
+    16-4 Terslemeyen yükselteç
+    16-5 Ýki ÝþYük uygulamasý
+        EP16b.asc: OpAmp/ÝþYük Ýþlemsel Yükselteç devreleri-2 örneði.
+    16-6 Doðrusal TD'ler
+        EP16c.asc: OpAmp/ÝþYük Ýþlemsel Yükselteç devreleri-3 örneði.
+    16-7 Yüzeye-monte aygýtlar olarak ÝþYük'ler
+Bölüm 17 Negatif Geribesleme
+    17-1 Eksi geribeslemenin dört tipi
+    17-2 VCVS/GKGK'ýn gerilim kazancý
+    17-3 Diðer GKGK eþitlikleri
+    17-4 ICVS/AKAK yükselteçi
+    17-5 VCIS/GKAK yükselteçi
+    17-6 ICIS/AKAK yükselteçi
+    17-7 Bantgeniþliði
+        EP17.asc: Dört çeþit negatif geribeslemeli ÝþYük devreleri örneði.
+Bölüm 18 Doðrusal ÝþYük Devre Uygulamalarý
+    18-1 Tersleyen-yükselteç devreleri
+    18-2 Terslemeyen-yükselteç devreleri
+        EP18a.asc: Doðrusal ÝþYük devre uygulamalarý-1 örneði.
+    18-3 Tersleyen/terslemeyen devreler
+    18-4 Fark yükselteçleri
+    18-5 Aletsel yükselteçler
+        EP18b.asc: Doðrusal ÝþYük devre uygulamalarý-2 örneði.
+    18-6 Toplayan yükselteç devreleri
+    18-7 Akým yükselticiler
+        EP18c.asc: Doðrusal ÝþYük devre uygulamalarý-3 örneði.
+    18-8 Gerilim-kontrollu akým kaynaklarý
+    18-9 Otomatik kazanç kontrolu
+    18-10 Tek-beslemeli iþlem
+        EP18d.asc: Doðrusal ÝþYük devre uygulamalarý-4 örneði.
+Bölüm 19 Aktif filitreler
+    19-1 Ýdeal yanýtlar
+    19-2 Yaklaþýk yanýtlar
+    19-3 Pasif filitreler
+        EP19a.asc: Aktif ve pasif frekans süzgeçleme devreleri-1 örneði.
+    19-4 Ýlk-dereceli safhalar
+    19-5 VCVS/GKGK bir-kazançlý ikinci-derece düþük-geçiþ filitreleri
+    19-6 Yüksek-dereceli filitreler
+        EP19b.asc: Aktif ve pasif frekans süzgeçleme devreleri-2 örneði.
+    19-7 VCVS/GKGK eþit-bileþen düþük-geçiþ filitreleri
+    19-8 VCVS/GKGK yüksek-geçiþ filitreleri
+    19-9 MFB/ÇGB bantgeçiþ filitreleri
+    19-10 Bantitfa filitreleri
+    19-11 Tüm-geçiþ filitresi
+    19-12 Dördüncüderece ve durum-deðiþkenli filitreler
+        EP19c.asc: Aktif ve pasif frekans süzgeçleme devreleri-3 örneði.
+Bölüm 20 Doðrusalolmayan ÝþYük Devre Uygulamalarý
+    20-1 Sýfýr referanslý karþýlaþtýrýcýlar
+        EP20a.asc: Doðrusal olmayan ÝþYük uygulama devreleri-1 örneði.
+        EP20b.asc: Doðrusal olmayan ÝþYük uygulama devreleri-2 örneði.
+    20-2 Sýfýrolmayan referanslý karþýlaþtýrýcýlar
+        EP20c.asc: Doðrusal olmayan ÝþYük uygulama devreleri-3 örneði.
+    20-3 Ardýlizlemli karþýlaþtýrýcýlar
+    20-4 Pencere karþýlaþtýrýcý
+        EP20d.asc: Doðrusal olmayan ÝþYük uygulama devreleri-4 örneði.
+    20-5 Tümleyici
+    20-6 Dalgabiçimi deðiþimi
+        EP20e.asc: Doðrusal olmayan ÝþYük uygulama devreleri-5 örneði.
+    20-7 Dalgabiçimi üretimi
+    20-8 Birdiðer üçgendalga üreteç
+    20-9 Aktif-çiftüþek devreleri
+        EP20f.asc: Doðrusal olmayan ÝþYük uygulama devreleri-6 örneði.
+    20-10 Türevleyici
+    20-11 Sýnýf-D yükselteç
+        EP20g.asc: Doðrusal olmayan ÝþYük uygulama devreleri-7 örneði.
+Bölüm 21 Salýnýmcýlar
+    21-1 Sinüssel salýnýmýn teorisi
+    21-2 Wien-Köprü salýnýmcý
+    21-3 Diðer RC salýnýmcýlar
+        EP21a.asc: Düþük ve yüksek frekanslý RC ve LC sinüs salýnýmcýlarý devreleri-1 örneði.
+    21-4 Colpitts salýnýmcý
+        EP21b.asc: Düþük ve yüksek frekanslý RC ve LC sinüs salýnýmcýlarý devreleri-2 örneði.
+    21-5 Diðer LC salýnýmcýlar
+        EP21c.asc: Düþük ve yüksek frekanslý RC ve LC sinüs salýnýmcýlarý devreleri-3 örneði.
+    21-6 Kuvartz kristaller
+        EP21d.asc: Düþük ve yüksek frekanslý RC ve LC sinüs salýnýmcýlarý devreleri-4 örneði.
+    21-7 NE555 zamanlayýcýnýn teksabit iþlemi
+        EP21e.asc: Düþük ve yüksek frekanslý RC ve LC sinüs salýnýmcýlarý devreleri-5 örneði.
+    21-8 NE555 zamanlayýcýnýn hiçsabit iþlemi
+        EP21f.asc: Düþük ve yüksek frekanslý RC ve LC sinüs salýnýmcýlarý devreleri-6 örneði.
+    21-9 NE555 devre uygulamalarý
+    21-10 Faz-kilitli döngü
+    21-11 Ýþlev üreteç TD'ler
+        EP21g.asc: Düþük ve yüksek frekanslý RC ve LC sinüs salýnýmcýlarý devreleri-7 örneði.
+Bölüm 22 Düzenlenen Güç Besleyiciler
+    22-1 Besleme karakteristikleri
+    22-2 Paralel düzelteçler
+        EP22a.asc: Zener, seri, paralel ve düðmelemeli regülatör devreleri-1 örneði.
+    22-3 Seri düzelteçler
+        EP22b.asc: Zener, seri, paralel ve düðmelemeli regülatör devreleri-2 örneði.
+    22-4 Tektaþ doðrusal düzelteçler
+    22-5 Akým yükselticiler
+        EP22c.asc: Zener, seri, paralel ve düðmelemeli regülatör devreleri-3 örneði.
+    22-6 DC'den-DC'ye düþüren/yükselten/tersleyen çeviriciler
+    22-7 Düðmelemeli düzelticiler
+        EP22d.asc: Zener, seri, paralel ve düðmelemeli regülatör devreleri-4 örneði.
+        EP22e.asc: Zener, seri, paralel ve düðmelemeli regülatör devreleri-5 örneði.
+        EP22f.asc: Zener, seri, paralel ve düðmelemeli regülatör devreleri-6 örneði.
+        EP22g.asc: Zener, seri, paralel ve düðmelemeli regülatör devreleri-7 örneði.
+        EP22h.asc: Zener, seri, paralel ve düðmelemeli regülatör devreleri-8 örneði.
 Bölüm 23 Industry 4.0
     23-1 Industry 4.0: An Overview
     23-2 Smart Sensors
@@ -275,7 +327,9 @@ Bölüm 23 Industry 4.0
     23-6 Data Conversion
     23-7 Data Exchange
 Appendix A Data Sheet List
-Appendix B Mathematical Derivations
+Appendix B Matematiksel türetmeler
+        EP23b/Ek-2, Bazý elektrik formüllerinin sadeleþtirilmeleri örneði.
 Appendix C Digital/Analog Trainer System
-Appendix D Thevenizing the R/2R D/A Converter
+Appendix D R/2R D/A çeviriciyi Thevenize'leþtirme
+        EP23a/Ek-1, ÝþYük kazanç devresini aþamalý Thevenin'lere sadeleþtirme örneði.
 Appendix E Summary Table Listing
